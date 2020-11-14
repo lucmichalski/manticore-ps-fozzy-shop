@@ -1,0 +1,34 @@
+#subtab-AdminSuperSpeedStatistics i,
+#subtab-AdminSuperSpeedPageCaches i,
+#subtab-AdminSuperSpeedImage i,
+#subtab-AdminSuperSpeedMinization i,
+#subtab-AdminSuperSpeedDatabase i,
+#subtab-AdminSuperSpeedHelps i,
+#subtab-AdminSuperSpeedSystemAnalytics i,
+#subtab-AdminSuperSpeedGzip i{
+    font-size: 0;
+    font-family: Fontawesome, sans-serif;
+    width: 16px;
+    height: 16px;
+}
+#subtab-AdminSuperSpeedStatistics i:before,
+#subtab-AdminSuperSpeedPageCaches i:before,
+#subtab-AdminSuperSpeedImage i:before,
+#subtab-AdminSuperSpeedSystemAnalytics i:before,
+#subtab-AdminSuperSpeedMinization i:before,
+#subtab-AdminSuperSpeedDatabase i:before,
+#subtab-AdminSuperSpeedHelps i:before,
+#subtab-AdminSuperSpeedGzip i:before{
+    font-family: Fontawesome, sans-serif;
+    font-size: 16px;
+}
+#subtab-AdminSuperSpeedStatistics i:before{content: "\F0E4";}
+#subtab-AdminSuperSpeedDatabase i:before{content:"\f1c0"}
+#subtab-AdminSuperSpeedHelps i:before{content:"\f059";}
+#subtab-AdminSuperSpeedMinization i:before{content:"\f233"}
+#subtab-AdminSuperSpeedGzip i:before{content:"\f268"}
+#subtab-AdminSuperSpeedImage i:before{content:"\f03e"}
+#subtab-AdminSuperSpeedPageCaches i:before{content:"\f26c"}
+#subtab-AdminSuperSpeedSystemAnalytics i:before {
+    content: "\f002";
+}

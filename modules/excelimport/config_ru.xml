@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>excelimport</name>
+    <displayName><![CDATA[Импорт-Экспорт товаров из Excel 2007-2010 (.xlsx)]]></displayName>
+    <version><![CDATA[2.7.8]]></version>
+    <description><![CDATA[Добавляет Импорт-Экспорт товаров из Excel 2007-2010 (.xlsx)]]></description>
+    <author><![CDATA[Novevision.com, Britoff A.]]></author>
+    <tab><![CDATA[quick_bulk_update]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

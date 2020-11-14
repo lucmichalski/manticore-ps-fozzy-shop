@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_0f78c481785124989e0c4ff7453e8b6c'] = 'IQIT - Дополнительные вкладки в карточке товара';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_1a0e1a8be3005164dbb869140efda6eb'] = 'Добавляет к товарам дополнительные вкладки';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Включено';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_93cba07454f06a4a960172bbd6e2a435'] = 'Да';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Нет';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_b78a3223503896721cca1303f776159b'] = 'Заголовок';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Описание';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_630f6dc397fe74e52d5189e2c80f282b'] = 'Вернуться к списку';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_9d55fc80bbb875322aa67fd22fc98469'] = 'Связь с магазином';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_b9b371458ab7c314f88b81c553f6ce51'] = 'Хук';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_e0765cb58ee99a00df1baed04551640f'] = 'С другими вкладками';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_e7898c3f6a967ecb759f2e289285c4e7'] = 'Как аккордеон перед \"В корзину\"';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_242e9577826290307cd3e45a259172cc'] = 'Изменения будут применены к';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_fb54f3c5992b96d001bb16e8e92d968d'] = 'магазин';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_540c8f06b80b4ec911505764eb455f4d'] = 'все магазины';
+$_MODULE['<{iqitadditionaltabs}prestashop>iqitadditionaltabs_b9f5c797ebbf55adccdd8539a65a0241'] = 'Отключено';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_module_54985daa1f6154394974f71f3199e000'] = 'Список вкладок';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_module_ef61fb324d729c341ea8ab9901e23566'] = 'Добавить';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_module_f71d3d402f19caf1fb3a7b42dba9e348'] = 'Общая вкладка';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_module_7dce122004969d56ae2e0245cb754d35'] = 'Редактировать';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_module_f2a6c498fb90ee345d997f888fce3b18'] = 'Удалить';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_7acdf85c69cc3c5305456a293524386e'] = 'Скрыто';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_ec24d78ce33048dc73a2b6b1a0690192'] = 'Опубликовано';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_b78a3223503896721cca1303f776159b'] = 'Заголовок';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_f15c1cae7882448b3fb0404682e17e61'] = 'Содержимое';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_ef61fb324d729c341ea8ab9901e23566'] = 'Добавить';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_daa6b483e9f6ca081ec7e0b4a352f9e9'] = 'Сохранить';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_ea4788705e6873b424c65e91c2846b19'] = 'Отмена';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_54985daa1f6154394974f71f3199e000'] = 'Список вкладок';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_f71d3d402f19caf1fb3a7b42dba9e348'] = 'Общая вкладка';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_7dce122004969d56ae2e0245cb754d35'] = 'Редактировать';
+$_MODULE['<{iqitadditionaltabs}prestashop>bo_productab_f2a6c498fb90ee345d997f888fce3b18'] = 'Удалить';

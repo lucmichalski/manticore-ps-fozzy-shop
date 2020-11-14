@@ -1,0 +1,10 @@
+#footer .social-links._footer a .fa-linkedin:before {
+    content: "tty";
+    color: transparent;
+    background-image: url(https://fozzyshop.ua/img/cms/social_logos/viber-logo-bl.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#footer .social-links._footer a:hover .fa-linkedin:before {
+    background-image: url(https://fozzyshop.ua/img/cms/social_logos/viber-logo-wh.png);
+}

@@ -1,0 +1,36 @@
+.row.carrier-extra-content {
+	margin: 0;
+}
+div.justindiv {
+	width: 100%;
+}
+div#onepagecheckoutps div.justindiv select {
+	background: none;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px !important;
+	color: #494b50;
+	font-size: 12px;
+	padding: 5px;
+	height: auto !important;
+}
+div#onepagecheckoutps div.justindiv .table-select {
+	width: 100%;
+}
+div#onepagecheckoutps div.justindiv.table-bordered {
+	width: 100% !important;
+}
+div#onepagecheckoutps .just_h4 {
+	text-transform: none;
+	padding-top: 9px;
+}
+div#onepagecheckoutps .just_label {
+	padding-top: 5px;
+}
+div#onepagecheckoutps div.justindiv .table-select tbody {
+	border-top: none !important;
+}
+div#onepagecheckoutps div.justindiv .table-select tr td {
+	padding: 3px !important;
+	border: none !important;
+}

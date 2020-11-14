@@ -1,0 +1,40 @@
+/img/
+/upload/
+/modules/fozzy_autoupdate/log/
+/modules/fozzy_orders/log/
+/modules/ecm_novaposhta_/logs/
+/themes/warehouse/assets/cache/
+/modules/ecm_novaposhta/logs/
+/operations/import/
+/modules/ph_simpleblog/covers/
+/modules/ph_simpleblog/featured/
+/modules/gshoppingfeed/export/
+/modules/ecm_liqpay/debug.log
+
+###> symfony/framework-bundle ###
+/.htaccess
+/.env.local
+/.env.local.php
+/.env.*.local
+/app/config/parameters.php
+/var/cache/
+/var/log/
+/var/logs/
+/var/sessions/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+.idea
+.env
+/composer.lock
+/symfony.lock
+
+/vendor/
+

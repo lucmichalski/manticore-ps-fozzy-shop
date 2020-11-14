@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+::-webkit-scrollbar:hover {
+    width: 20px !important;
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+#history .orders.hidden-md-up {
+    display: block!important;
+}
+}

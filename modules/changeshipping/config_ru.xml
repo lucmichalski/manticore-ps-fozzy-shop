@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>changeshipping</name>
+    <displayName><![CDATA[Изменить перевозчика и цену доставки.]]></displayName>
+    <version><![CDATA[1.0]]></version>
+    <description><![CDATA[Добавляет функционал в форму заказа.]]></description>
+    <author><![CDATA[Novevision.com, Britoff A.]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Вы уверены?]]></confirmUninstall>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

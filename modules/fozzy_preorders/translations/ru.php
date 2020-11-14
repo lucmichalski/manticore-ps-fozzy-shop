@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_a704d920ee4b6f85bc976fb424f9d673'] = 'Предзаказы';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_0cc14603c20fad627b13ffc05bd6abf0'] = 'Модуль предзаказов для Fozzy.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_6064562785ba3262ed06b25cd3357717'] = 'Артикул успешно добавлен.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_f39b13154ed963cabfc05ef0ce27f1cf'] = 'Ошибка при добавлении артикула.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_4ef76cd01829214ee2df810243041dd3'] = 'Ошибка при обновлении артикула.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_2019d47fd897f65a699b8aae658d454b'] = 'Артикул успешно обновлен.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_758d95b6bc5340815471cada3009a3a8'] = 'Артикул успешно удален.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_d64b96e5658a54071a3a92d860da61e0'] = 'Ошибка при удалении уртикула.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_41e11fd11fb226d5580ce9242fd90a62'] = 'Филиал успешно добавлен.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_d18a07fec188b63bbe0dae9324fe5552'] = 'Ошибка при добавлении филиала.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_4fc2794f70c0207812b858b7a2db0538'] = 'Ошибка при обновлении филиала.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_0ca460ece0d63de2532fc4c0fc2ff95a'] = 'Филиал успешно удален.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_3a26d5ea9878aa523e00c566457074d8'] = 'Ошибка при удалении филиала.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_c4f2da40d5e29e07e813d8d4ecfe6e2b'] = 'Филиал успешно обновлен.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_75c4b65669615240c98e17e0acb915f2'] = 'Артикулы';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_4f3a71bbb1a757efe7a6e9de893a26ba'] = 'Натстройки';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_cf873ced17e6311fd32055d19412bc58'] = 'Добавить артикул';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_c9cc8cce247e49bae79f15173ce97354'] = 'Добавить';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_d058db66166313a475985996057078ed'] = 'Редактировать артикул';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_7dce122004969d56ae2e0245cb754d35'] = 'Обновить.';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_b0520cfb951217f35e2ff384b9cb6d19'] = 'Артикул';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_a32e34d311ea5c08653e44fe30e1f772'] = 'Полное наименование';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_19c562a36aeb455d09534f93b4f5236f'] = 'Единица измерения';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_1d17cb9923b99f823da9f5a16dc460e5'] = 'Отдел';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_0be8406951cdfda82f00f79328cf4efc'] = 'Коменнтарий';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_d9e7e3e6d8c662960bab90eaeee41257'] = 'Единица измерения';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_660a0d10e0cd7066202ea5c68252aec0'] = 'Список артикулов';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_35f837131dd626477f780b52ba597970'] = 'Добавить филиал';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_2d52ca824f6181343e6bba7a1940ce7a'] = 'Редактировать филиал';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_e93c33bd1341ab74195430daeb63db13'] = 'Филиал';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Электронная почта';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_08608cdc8de753851ba3aa2ea1ebfd3a'] = 'Список филиалов';
+$_MODULE['<{fozzy_preorders}prestashop>fozzy_preorders_0936f9f4b98d56595056c8b1fc4e0371'] = 'Отборка на завтра. Интернет-Магазин';

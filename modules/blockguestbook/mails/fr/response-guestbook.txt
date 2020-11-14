@@ -1,0 +1,15 @@
+Hi {name},
+
+Response for guestbook post in the {shop_name}
+
+Details of message:
+
+{text}
+
+Response: {response}
+
+See this guestbook post here: {link}
+
+
+
+{shop_url} powered by PrestaShop™

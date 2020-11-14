@@ -1,0 +1,20 @@
+#module-fozzy_cleanfest-reestr #wrapper {
+	background: #1a2857;
+	color: #ffffff;
+}
+#module-fozzy_cleanfest-reestr #question_content {
+	min-height: 300px;
+	display: inline-block;
+	width: 330px;
+}
+#module-fozzy_cleanfest-reestr #marketing {
+	width: 100%;
+	max-width: 589px;
+	float: right;
+}
+@media (max-width: 800px) {
+#module-fozzy_cleanfest-reestr #marketing {
+    display: none;
+    
+}
+}

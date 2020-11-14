@@ -1,0 +1,45 @@
+.icon-AdminNPMain:before {
+	content: '\f207';
+}
+
+	#referal_street{
+	    position:relative;
+	}
+	
+	#street_result{
+		border-bottom: 1px #c7d6db solid;
+		border-left: 1px #c7d6db solid; 
+		border-right: 1px #c7d6db solid;
+		border-radius: 3px;	    
+		display:none;
+		max-height: 30em;
+		overflow-x: hidden;
+		opacity:100;
+	    background: #ffffff;
+		position: absolute;
+		left: 5px;
+		right: 5px;
+		z-index: 9999;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.5); 
+	}
+	
+	#street_result li{
+	    list-style: none;
+	    padding: 5px 10px;
+	    margin: 0 0 0 -40px;
+	    color: #0896D3;
+	    cursor: pointer;
+		float:none;
+	}
+	
+	#street_result li:hover{
+	    background: #ffffd7;
+	}
+	
+.oncalc {
+	width: 2rem !important;
+}
+
+.bootstrap .form-control {
+	display: initial;
+}

@@ -1,0 +1,29 @@
+.js-cart-line-product-quantity.form-control {
+	padding: 0.1rem;
+	display: none !important;
+}
+.col.col-auto.col-md.qty .input-group.bootstrap-touchspin {
+	display: none !important;
+}
+#cart .cart-item .product-image {
+	max-width: 75px;
+}
+#order-confirmation #content-hook_order_confirmation .block-iqithtmlandbanners-html {
+	padding: 0;
+}
+#order-confirmation #content-hook_order_confirmation .block-iqithtmlandbanners-html h5.block-title,
+#stores #ShopsBefore .block-iqithtmlandbanners-html h5.block-title {
+	display: none;
+}
+div#onepagecheckoutps select {
+	color: black;
+}
+a.btn.btn-secondary.btn-block.btn-secondary-cart {
+	background: #494b50;
+}
+a.btn.btn-secondary.btn-block.btn-secondary-cart:hover {
+	background: #6c757d;
+}
+div#onepagecheckoutps .loading_big .loader {
+  background-color: transparent !important;
+}

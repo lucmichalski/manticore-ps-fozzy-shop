@@ -1,0 +1,13 @@
+Hi,
+
+You have received a message via your shop: {shop_name}
+
+Details of message:
+
+Name: {name}
+
+Question: {text}
+
+
+
+{shop_url} powered by PrestaShop™

@@ -1,0 +1,36 @@
+/** CSS **/
+#submit_smile {
+	width: 100%;
+	border: none;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 200px;
+	border-radius: 0;
+	background-color: transparent;
+	background: url(sampling_v3.jpg);
+	margin: 10px 0 20px;
+	cursor: pointer;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: initial;
+}
+#submit_smile:hover,
+#submit_smile:active,
+#submit_smile:focus {
+	/*background-color: red;
+	color: white;
+*/
+}
+@media (max-width: 420px) {
+#submit_smile {
+	background-size: 270%;
+}
+}
+#iqithtmlandbanners-block-67 {
+	padding: 0;
+	margin: 20px 0;
+}
+#iqithtmlandbanners-block-67 .h5.block-title {
+	display: none !important;
+}

@@ -1,0 +1,13 @@
+div.dtd_container.clear_cont ul {
+	list-style: disc;
+	padding-left: 23px;
+}
+@media (min-width: 767px) {
+#HOOK_BEFORECARRIER {
+	height: 100vh;
+}
+#HOOK_BEFORECARRIER div.dtd_container.clear_cont {
+	position: sticky;
+	top: 70px;
+}
+}

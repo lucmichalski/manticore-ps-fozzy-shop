@@ -1,0 +1,12 @@
+@media (max-width:767px) {
+#cms.cms-id-13 {
+	text-align: center;
+}
+#cms.cms-id-13 .horeca_doc {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#cms.cms-id-13 .horeca_title_section {
+background-image: none;
+}
+}

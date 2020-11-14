@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_emailalerts</name>
+    <displayName><![CDATA[Почтовые оповещения]]></displayName>
+    <version><![CDATA[2.1.1]]></version>
+    <description><![CDATA[Отправка e-mail - уведомлений клиентам и продавцам при изменениях запасов и заказов.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

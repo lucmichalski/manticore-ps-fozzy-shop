@@ -1,0 +1,55 @@
+
+
+table.blockguestbook-widgets{border:0px!important;top: 15%; position: fixed; z-index: 9999;}
+table.blockguestbook-widgets tr{border:0px!important;}
+table.blockguestbook-widgets td{border:0px!important;vertical-align:baseline!important}
+
+
+/* testimonials */
+
+#blockguestbook-box {
+	position: fixed;
+	z-index: 9999;
+	
+	
+}
+
+div#blockguestbook-box.left_shopreviews .outside {
+	float: left;
+	}
+
+div#blockguestbook-box.left_shopreviews .belt {
+	position: relative;
+	z-index: 1;
+	float: right;
+	position: relative;
+	z-index: 0;
+	}
+	
+ 
+#blockguestbook-box .outside {
+	position: relative;
+	z-index: 1;
+	background: #f6dce8;
+	min-width: 1px;
+	
+}
+ 
+#blockguestbook-box .inside {
+	position: relative;
+	z-index: 2;
+	background: #fff;
+}
+ 
+#blockguestbook-box.right_shopreviews .belt {
+	position: relative;
+	z-index: 1;
+	float: right;
+	position: relative;
+	z-index: 0;
+}
+
+/* testimonials */
+
+
+

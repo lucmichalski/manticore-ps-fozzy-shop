@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ecm_changecourier</name>
+    <displayName><![CDATA[Change courier]]></displayName>
+    <version><![CDATA[0.6]]></version>
+    <description><![CDATA[Смена перевозчика в администрировани заказа]]></description>
+    <author><![CDATA[Elcommerce]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

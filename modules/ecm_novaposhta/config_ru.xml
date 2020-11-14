@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ecm_novaposhta</name>
+    <displayName><![CDATA[Доставка Новая почта]]></displayName>
+    <version><![CDATA[3.6.0]]></version>
+    <description><![CDATA[Модуль доставки &quot;Новая почта&quot;]]></description>
+    <author><![CDATA[Elcommerce]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

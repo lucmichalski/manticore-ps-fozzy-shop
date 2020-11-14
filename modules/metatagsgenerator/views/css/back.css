@@ -1,0 +1,240 @@
+.bootstrap .check-all.checked {
+	color: #999;
+}
+.just-saved {
+	color:#71b238!important;
+}
+.just-saved:after, .meta-value.loading .value-holder:before {
+	content: '\f00c';
+	display: inline-block;
+	font-family: FontAwesome;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-left: 5px;
+	z-index: 1;
+}
+.row-selector {
+	position: relative;
+}
+.item-identifier {
+	color: #CCC;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	display: none;
+	margin-top: 6px;
+}
+.item-row:hover .item-identifier{
+	display: block;
+}
+.meta-value, .value-holder {
+	position: relative;
+}
+.meta-value.loading {
+	text-align: center;
+}
+.meta-value.loading .editable-value,  .meta-value.loading .counter{
+	opacity: 0;
+}
+.meta-value.loading .value-holder:before {
+	content: '\f01e';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: -7px 0 0 0;
+	font-size: 14px;
+	-webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+	color: #999;
+
+}
+.value-holder .counter {
+	position: absolute;
+	left: 0;
+	top: -22px;
+	padding: 2px 3px;
+	border: 1px solid #A0D0EB;
+	background: #FFF;
+	border-radius: 3px 3px 0 0;
+	display: none;
+}
+.value-holder .counter.alert-danger {
+	background: #FFE2E4;
+}
+.edit .value-holder .counter {
+	display: block;
+}
+.editable-value {
+	padding: 5px;
+	border-radius: 0 3px 3px 3px;
+	border: 1px dashed transparent;
+	outline: none;
+	cursor: pointer;
+}
+.editable-value:hover {
+	border-color: #C6E3F3;
+}
+.edit .editable-value {
+	border: 1px solid #A0D0EB;
+	background: #FEFBE2;
+	cursor: text;
+}
+.meta-details .pattern-input {
+	width: 50%;
+	margin-right: 15px;
+}
+.meta-details .truncate-input {
+	width: 5%;
+	min-width: 50px;
+	margin: 0 5px;
+}
+
+.img-navigation {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40%;
+	margin-top: -9px;
+	z-index: 111;
+}
+.img-list {
+	overflow: hidden;
+}
+.img-list .img-item {
+	text-align: center;
+	display: none;
+}
+.img-list .img-item.visible {
+	display: block;
+}
+.img-list .img-item img {
+	margin: 5px auto;
+}
+
+.counter .max {
+	font-size: 0.8em;
+}
+.panel-footer {
+	color: #999;
+}
+.checker {
+	margin: 5px 0 15px 0;
+}
+.checker a{
+	vertical-align: middle;
+}
+
+select.not-empty {
+	border: 2px solid #00aff0;
+}
+.clear-filters {
+	position: absolute;
+	right: -7px;
+	top: 7px;
+	display: none;
+}
+.filters-activated .clear-filters{
+	display: block;
+}
+
+/* animations */
+@-webkit-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-moz-keyframes fadeIn    {0% { opacity: 0; } 100% { opacity: 1; }}
+@-o-keyframes fadeIn      {0% { opacity: 0; } 100% { opacity: 1; }}
+@keyframes fadeIn         {0% { opacity: 0; } 100% { opacity: 1; }}
+.visible {
+	-webkit-animation: fadeIn 0.5s;
+	-moz-animation:    fadeIn 0.5s;
+	-o-animation:      fadeIn 0.5s;
+	animation:         fadeIn 0.5s;
+}
+
+/* pagination */
+.list-pagination {
+	margin-top: 35px;
+}
+.current-page, .go-to-page {
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+    width: 30px;
+    line-height: 27px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+}
+.list-pagination select.npp {
+	display: inline-block;
+	width: auto;
+}
+.pages-holder {
+	margin-left: 15px;
+}
+.order-way.additional-element .way {
+	cursor: pointer;
+	color: #00AFF0;
+}
+.order-way.additional-element .way.active, .bootstrap .table thead>tr>th span.title_box a.list-order-way.active {
+	color: #777;
+}
+.order-way.additional-element .way input{
+	display: none;
+}
+.available-variables {
+	background: #FAFAFA;
+    padding: 15px;
+    margin: 0 -20px 15px -20px;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+	color: #999;
+}
+.available-variables span {
+	color: #777;
+}
+.auto-fill-meta-tags-fom {
+	color: #777;
+}
+.auto-fill-meta-tags-form label {
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+.generate-meta.blocked, .bulk-generate.blocked {
+	opacity: 0.5;
+}
+
+/* general styles */
+a[href="#"] {
+	text-decoration: none!important;
+}
+.inline-block {
+	display: inline-block;
+}
+.grey-note {
+	color: #999;
+}
+.red-text {
+	color: #E27C79;
+}
+.bootstrap .has-additional-element {
+	padding-right: 55px;
+	position: relative;
+}
+.bootstrap .form-group .additional-element {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	line-height: 30px;
+	margin: 0;
+}
+.bootstrap .has-additional-element.sort-by {
+	padding-right: 25px;
+}
+.bootstrap .has-additional-element.sort-by .additional-element {
+	width: 20px;
+}
+#content.bootstrap .light-bg {
+	background: #FAFAFA;
+}
+/* since 1.6.2 */

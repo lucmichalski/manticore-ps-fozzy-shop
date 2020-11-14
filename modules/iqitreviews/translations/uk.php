@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{iqitreviews}prestashop>iqitreviews_34e80a799d144cfe4af46815e103f017'] = 'Відгуки';
+$_MODULE['<{iqitreviews}prestashop>simple-product-rating_34e80a799d144cfe4af46815e103f017'] = 'Відгуки';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_34e80a799d144cfe4af46815e103f017'] = 'Відгуки';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_050a493969d909496cace9cae0fb0ca7'] = 'Немає відгуків';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_77929e05bb68ed77c1b8fc1062bd619a'] = 'Залишити відгук';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_53e5aa2c97fef1555d2511de8218c544'] = 'від';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_ed2b5c0139cec8ad2873829dc1117d50'] = 'на';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_c31732fda0c6f01c446db7163b214de4'] = 'Залишити відгук';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_49ee3087348e8d44e1feda1917443987'] = 'Ім\'я';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_4c2a904bafba06591225113ad17b5cec'] = 'Степан Хмара';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_b78a3223503896721cca1303f776159b'] = 'Заголовок';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_11875f00c302c19e98e4a02594316b33'] = 'напр. Дуже гарно';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_dda9c06f33071c9b6fc237ee164109d8'] = 'Рейтинг';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_0be8406951cdfda82f00f79328cf4efc'] = 'Відгук';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_ac34abd5dad413e429f62e5b8fdf9ec7'] = 'Ваш відгук';
+$_MODULE['<{iqitreviews}prestashop>product-reviews_4239fa113a2ad4aefe9ffdcdefc5d31d'] = 'Відправити';
+$_MODULE['<{iqitreviews}prestashop>product-reviews-footer_34e80a799d144cfe4af46815e103f017'] = 'Відгуки';
+$_MODULE['<{iqitreviews}prestashop>actions_90404a994742a464955b83ea5f41f8b8'] = 'Невірний ідентефікатор товару';
+$_MODULE['<{iqitreviews}prestashop>actions_7b0bf23ae4079e07a3a4cb4d07e2caef'] = 'Невірний загаловок';
+$_MODULE['<{iqitreviews}prestashop>actions_ddbd56de5feb78ef1aaf60401f8c472b'] = 'Невірний відгук';
+$_MODULE['<{iqitreviews}prestashop>actions_1b1030b6294e9096a7d7c40d83d61872'] = 'Ім\'я не корректне';
+$_MODULE['<{iqitreviews}prestashop>actions_01d4e07cf2d4c9bd8a430ca055f41365'] = 'Ви маєте буте зареєстрованим для написання відгука';
+$_MODULE['<{iqitreviews}prestashop>actions_b49f8546e2139beb757bba0451f56944'] = 'Некоректний рейтинг';
+$_MODULE['<{iqitreviews}prestashop>actions_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = 'Товар не знайдено';
+$_MODULE['<{iqitreviews}prestashop>actions_85d63828e94dd72eba870d1eccffe9b7'] = 'Відгук додано';
+$_MODULE['<{iqitreviews}prestashop>actions_8d0fbd51fabc4fb20a5f491d90c49a48'] = 'Почекайте 60 секунд для наступного відгука ';
+$_MODULE['<{iqitreviews}prestashop>actions_705bf53ca087d3ef5e22dd453635d7ab'] = 'Помилка при додаванні відгука';

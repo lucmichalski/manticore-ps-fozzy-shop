@@ -1,0 +1,4 @@
+"Old URL","Matching type (equalsto/beginswith/contains)","New URL","Redirect type (301/302/303/307)","Active (0/1)"
+"/3-women","equalsto","/9-casual-dresses","301","1"
+"/en/","beginswith","http://en.myshop.com","307","1"
+"dresses","contains","http://www.minidresses.com","301","1"

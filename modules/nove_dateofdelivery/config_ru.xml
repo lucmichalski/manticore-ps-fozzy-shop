@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>nove_dateofdelivery</name>
+    <displayName><![CDATA[Дата и временной интервал доставки]]></displayName>
+    <version><![CDATA[3.0.1]]></version>
+    <description><![CDATA[Покупатель может выбрать дату и временной интервал доставки]]></description>
+    <author><![CDATA[Novevision.com, Britoff A.]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+	<confirmUninstall><![CDATA[Вы уверены, что хотите удалить этот модуль?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

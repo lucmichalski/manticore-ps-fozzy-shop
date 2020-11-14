@@ -1,0 +1,53 @@
+<html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title></title>
+    </head>
+    <body>
+	<table style="width:100%; background-color: white">
+	    <tr>
+		<td style="border-bottom: 4px solid #333333; padding: 7px 0;" align="center">
+		    <img src="{shop_logo}" alt="{shop_name}" />
+		</td>
+	    </tr>
+	    <tr>
+		<td align="center">
+		    <p>
+			<span style="color: #555454; font-family: Open-sans, sans-serif; font-size: small;">
+			    <span class="title" style="font-weight: 500; font-size: 28px; text-transform: uppercase; line-height: 33px;">HI, {name}</span>
+			    <br />
+			    <span class="subtitle" style="font-weight: 500; font-size: 16px; text-transform: uppercase; line-height: 25px;">THANK YOU FOR SHOPPING WITH&nbsp; {shop_name}!</span>
+			</span>
+		    </p>
+		</td>
+	    </tr>
+	    <tr>
+		<td style="padding: 20px; border: 1px solid #D6D4D4; background-color: #f8f8f8;" align="left">
+		    <p style="border-bottom: 1px solid #D6D4D4; margin: 3px 0 7px; text-transform: uppercase; font-weight: 500; font-size: 18px; padding-bottom: 10px;" data-html-only="1">ORDER DETAILS</p>
+		    <span style="color: #555454; font-family: Open-sans, sans-serif; font-size: small;">
+			<span style="color: #777;"><span style="color: #333;"><strong>Quick order:</strong></span>&nbsp;in the amount of {order_total} placed on&nbsp;{date}<br /></span>
+		    </span>
+		</td>
+	    </tr>
+	    <tr>
+		<td style="padding: 20px 0;">
+		    <table style="width: 100%; border-collapse: collapse;" bgcolor="#ffffff">
+			<thead>
+			    <tr>
+				<th style="border: 1px solid #D6D4D4; background-color: #fbfbfb; font-family: Arial; color: #333; font-size: 13px; padding: 10px;">Reference</th><th style="border: 1px solid #D6D4D4; background-color: #fbfbfb; font-family: Arial; color: #333; font-size: 13px; padding: 10px;">Product</th><th style="border: 1px solid #D6D4D4; background-color: #fbfbfb; font-family: Arial; color: #333; font-size: 13px; padding: 10px;">Unit price</th><th style="border: 1px solid #D6D4D4; background-color: #fbfbfb; font-family: Arial; color: #333; font-size: 13px; padding: 10px;">Quantity</th><th style="border: 1px solid #D6D4D4; background-color: #fbfbfb; font-family: Arial; color: #333; font-size: 13px; padding: 10px;">Total price</th>
+			    </tr>
+			</thead>
+			<tbody>
+			    {products}
+			</tbody>
+		    </table>
+		</td>
+	    </tr>
+	    <tr>
+		<td align="left">
+		    <span style="color: #555454; font-family: Open-sans, sans-serif; font-size: small;"><span style="color: #d0121a;">*</span>&nbsp;Announced preliminary order amount. Once you contact our manager and clarify details of the order, it will tell you the final amount of the order.</span>
+		</td>
+	    </tr>
+	</table>
+    </body>
+</html>

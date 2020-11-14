@@ -1,0 +1,81 @@
+##########################################################################
+Change Log : WkPwa V6.2.0 | COMPATIBLE:: PRESTASHOP V1.7.X.X
+##########################################################################
+
+## Bug Fixed
+
+- [CO] : Guzzle library conflict fixed.
+
+
+## Update Policy:
+
+– No need to uninstall and install the module, only update the module files.
+
+##########################################################################
+Change Log : WkPwa V6.1.0 | COMPATIBLE:: PRESTASHOP V1.7.X.X
+##########################################################################
+
+## Improvements
+
+~ [CO] : Move Push notification process to ajax.
+~ [CO] : Optimize push notification API.
+~ [CO] : Remove install.sql from module.
+~ [BO] : Size of badge(favicon) in push notification pop-up should be 72*72 px.
+~ [CO] : Module compatible with IOS.
+
+
+## Bug Fixed
+
+- [BO] : Remove Add New subscribers button.
+- [CO] : Resolved fatal error while sending cart reminder push notification.
+- [BO] : Issue resolved of page timeout when push notification send to so many subscribers.
+- [FO] : Issue resolved of start_url to 404 Page.
+- [BO] : When SSL is not enabled, then error message when be displayed if trying to send push notifiations.
+- [BO] : Image validation issues are resolved.
+- [BO] : Guest id zero issue in client sites.
+- [FO] : Uncaught (in promise) TypeError: Request scheme 'chrome-extension' is unsupported.
+- [CO] : Issue when another customer is logged-in at same browser.
+
+
+## Added features
+
++ [CO] : Module is compatible with GDPR.
++ [BO] : Expired subscriber displayed seperately in manage subscriber page in backoffice.
++ [BO] : Suggestion of App short name must be less than 12 characters added.
++ [FO] : App is Online/Offline notification bar.
++ [CO] : Target URL will be the Product page URL for product poush notifications.
+
+
+## Update Policy:
+
+– Changes in database and file, need uninstall, DELETE and upload and install the new verion module.
+
+
+##########################################################################
+Change Log : WkPwa V6.0.1 | COMPATIBLE:: PRESTASHOP V1.7.X.X
+##########################################################################
+
+
+## Improvements
+
+~ [CO] : Cart Reminder Noitifcations issues resolved.
+
+## Update Policy:
+
+– Update only zip file of module for new version
+
+##########################################################################
+Change Log : WkPwa V6.0.0 | COMPATIBLE:: PRESTASHOP V1.7.X.X
+##########################################################################
+
+
+## Added features
+
+- [BO] : Now Admin can create five types of push notification: Manual Push Notification, Product Notification, Order Status Notification, Welcome Notification, Cart Reminder Notification.
+- [BO] : Admin can manage the subscribers from "Manage Subscribers" tab.
+- [BO] : Admin can view/delete the list of notification history from "Manage Notification History".
+
+
+## Update Policy:
+
+– Major changed in database and file, need uninstall, DELETE and upload and install the new verion module

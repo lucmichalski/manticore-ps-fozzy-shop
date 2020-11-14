@@ -1,0 +1,6 @@
+#index article .product-add-cart {
+	display: none !important;
+}
+#index .price-countdown.badge-discount.discount {
+    background: #046f29;
+}

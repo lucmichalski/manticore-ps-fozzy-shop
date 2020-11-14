@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>iqitcrossselling</name>
+    <displayName><![CDATA[IQIT - кросс-продажи]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Добавляет раздел &laquo;Клиенты, которые купили этот товар, также купили ...&raquo; на странице товара, корзине и всплывающем окне]]></description>
+    <author><![CDATA[IQIT-COMMERCE.COM]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

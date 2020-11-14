@@ -1,0 +1,172 @@
+.ooc_table_products .products_table {
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.ooc_table_products .products_table .product_image {
+    border: 1px solid #ddd;
+}
+
+.ooc_table_products .products_table .product_description {
+    text-align: left;
+}
+
+.ooc_table_products .products_table .product_availability {
+    width: 80px;
+}
+
+.ooc_table_products .products_table .product_unit_price {
+    width: 120px;
+    text-align: right;
+}
+
+.ooc_table_products .products_table .product_qty {
+    width: 80px;
+}
+
+.ooc_table_products .products_table .product_total {
+    width: 120px;
+    text-align: right;
+}
+
+.ooc_table_products .products_table tbody tr {
+    background: #F9F9F9;
+}
+
+.ooc_table_products .products_table thead tr {
+    background: #EAEFF5;
+    font-weight: bold;
+}
+
+.ooc_table_products .products_table tfoot tr {
+    background: #FFF5EA;
+}
+
+.ooc_table_products .products_table tfoot tr .total {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ooc_table_products .products_table tfoot tr .total-d {
+    font-weight: bold;
+}
+
+.ooc_table_products .products_table tfoot tr .total-price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ooc_table_products .products_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ooc_table_products .products_table .product {
+    width: 102px;
+}
+
+
+
+.ooc_info table {
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.ooc_info table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ooc_info table .order_info {
+    width: 120px;
+}
+
+.ooc_info table .datetime {
+    text-align: left;
+    width: 200px;
+    text-align: left;
+}
+
+.ooc_info table .customer {
+    width: 200px;
+    text-align: left;
+}
+
+.ooc_info table .field_name {
+    width: 200px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align: left;
+}
+
+.ooc_info table .field_value {
+    width: 200px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align: left;
+}
+
+.ooc_info table thead tr {
+    background: #EAEFF5;
+    font-weight: bold;
+}
+
+.ooc_info table tbody tr {
+    background: #FBFFEC;
+}
+
+.ooc_info table .white {
+    background: white;
+}
+
+.ooc_info table .whitesmoke {
+    background: whitesmoke;
+}
+
+#ooc_customer_search {
+    text-align: center;
+}
+
+#ooc_customer_search .input-group {
+    width: 300px;
+    margin: 45px auto 10px;
+}
+
+.modal-content {
+    width: 400px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.modal-content .assign_wait {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #CECECE;
+    left: 0;
+    right: 0;
+    z-index: -1000;
+    opacity: 0;
+    background-image: url('../img/loader.gif');
+    background-position-x: 148px;
+    background-position-y: 75px;
+    background-repeat: no-repeat;
+}
+
+.modal-content .create_cust_input {
+    height: 31px;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #F5F8F9;
+    background-image: none;
+    border: 1px solid #C7D6DB;
+    border-radius: 3px;
+    -webkit-transition: bord;
+    width: 90%;
+}

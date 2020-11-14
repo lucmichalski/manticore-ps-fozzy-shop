@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{promexport}prestashop>promexport_d65e64f0e1fda7fb65af6d1201f3f5f9'] = 'Экспорт в Prom.ua';
+$_MODULE['<{promexport}prestashop>promexport_0c16e62f8ec1f66d544adf9798e02028'] = 'Генерирует файл экспорта в Prom.ua';
+$_MODULE['<{promexport}prestashop>promexport_ffc70cdbbf3b39bbc2b301ad085d68d7'] = 'Генерация завершена.';
+$_MODULE['<{promexport}prestashop>promexport_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
+$_MODULE['<{promexport}prestashop>promexport_9127fe218b2cac7f0c8aecd7016a891d'] = 'Название магазина';
+$_MODULE['<{promexport}prestashop>promexport_e2026a4d4d71039848d1dace66de761e'] = 'Название магазина в Prom.ua';
+$_MODULE['<{promexport}prestashop>promexport_ccf107a5d46c6501c9f2f4345400dc2e'] = 'ID магазина ';
+$_MODULE['<{promexport}prestashop>promexport_ba05a0a88b6bab78ca409edb6a7596cc'] = 'ID магазина в Prom.ua';
+$_MODULE['<{promexport}prestashop>promexport_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
+$_MODULE['<{promexport}prestashop>promexport_05c7c579fcf67925b50f594287c8ff69'] = 'Категории для экспорта';
+$_MODULE['<{promexport}prestashop>promexport_91b442d385b54e1418d81adc34871053'] = 'Отмеченные';
+$_MODULE['<{promexport}prestashop>promexport_b7d7436a18bf546dd6438d92218868c1'] = 'Отметить все';
+$_MODULE['<{promexport}prestashop>promexport_5e9df908eafa83cb51c0a3720e8348c7'] = 'Отметить все';
+$_MODULE['<{promexport}prestashop>promexport_9747d23c8cc358c5ef78c51e59cd6817'] = 'Снять отметки';
+$_MODULE['<{promexport}prestashop>promexport_b56c3bda503a8dc4be356edb0cc31793'] = 'Свернуть все';
+$_MODULE['<{promexport}prestashop>promexport_5ffd7a335dd836b3373f5ec570a58bdc'] = 'Развернуть все';
+$_MODULE['<{promexport}prestashop>promexport_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{promexport}prestashop>promexport_359fd98d213e983c5378698bdb20032f'] = 'Настройки экспорта';
+$_MODULE['<{promexport}prestashop>promexport_31c904298c86f321e290ae0381cf8bcc'] = 'Постоянная ссылка';
+$_MODULE['<{promexport}prestashop>promexport_cc42feefd8fd8604ba30ba7a4c9f18c6'] = 'Ссылка генерируемая по расписанию или кнопкой - Генерировать';
+$_MODULE['<{promexport}prestashop>promexport_63668cb53e074f7dd9b604a2e9d70742'] = 'Динамическая ссылка';
+$_MODULE['<{promexport}prestashop>promexport_666d9217c6a37a90c1080451fc3d492d'] = 'Ссылка генерируемая по запросу';
+$_MODULE['<{promexport}prestashop>promexport_5588ea18ef47155105d7d11abcb7e4e1'] = 'Ссылка для генерации';
+$_MODULE['<{promexport}prestashop>promexport_53aee1468889f76e6e185307267abbc1'] = 'Ссылка для генерации по расписанию';
+$_MODULE['<{promexport}prestashop>promexport_12f465a7d319af666ff75ee0f916834c'] = 'Использовать артикул поставщика:';
+$_MODULE['<{promexport}prestashop>promexport_93cba07454f06a4a960172bbd6e2a435'] = 'Да';
+$_MODULE['<{promexport}prestashop>promexport_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Нет';
+$_MODULE['<{promexport}prestashop>promexport_32b919d18cfaca89383f6000dcc9c031'] = 'Генерировать';
+$_MODULE['<{promexport}prestashop>promexport_4bbb8f967da6d1a610596d7257179c2b'] = 'Неверный';
+$_MODULE['<{promexport}prestashop>promexport_d7359c448bde24973c610406e62bfe98'] = 'ID магазина';
+$_MODULE['<{promexport}prestashop>promexport_f38f5974cdc23279ffe6d203641a8bdf'] = 'Настройки обновлены.';

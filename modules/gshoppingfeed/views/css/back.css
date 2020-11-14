@@ -1,0 +1,119 @@
+/**
+* 2016 TN
+*
+* NOTICE OF LICENSE
+*
+*  @author    TN
+*  @copyright 2016 TN
+*  @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+
+#set_filter .chosen-container-multi {
+    min-width: 200px;
+}
+
+.ajax_choose_product .input-group {
+    width: 100%;
+}
+
+.bootstrap .fixed-width-all {
+    width: 100%!important;
+}
+
+.step-title {
+    display: inline-block;
+
+    color: #fff;
+    border: solid 1px #279CBB;
+    background-color: #2eacce;
+
+    padding: 5px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#form-gshoppingfeed_taxonomy,
+#form-gshoppingfeed_action,
+#form-gshoppingfeed_taxonomy_lang_list,
+#fieldset_form_1 {
+    display: none;
+}
+
+#features_custom_selected {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0 0 0;
+    margin: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+#features_custom_selected li {
+    display: inline-block;
+    border-top: 1px solid #dddddd;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+#features_custom_selected .feature_removed {
+    display: inline-block;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    color: #2eacce;
+    line-height: 1;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.gsh-accordion {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.gsh-accordion li {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.gsh-accordion li p {
+    margin: 0;
+    padding: 0;
+}
+
+.attribute-mod-container {
+    padding-bottom: 15px;
+}
+
+.dec-row {
+    border-bottom: 1px solid #f6f6f6;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.dec-row .example-row {
+    display: inline-block;
+    padding: 7px 0 0 0;
+}
+
+.custom_attribute_name.error {
+    border-color: red!important;
+}
+
+.js-remove-attr-line {
+    display: inline-block;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    color: #2eacce;
+    line-height: 1;
+    padding-right: 10px;
+}

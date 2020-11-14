@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>dmsolutions</name>
+    <displayName><![CDATA[DM Solutions]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Get geocode from DM Solutions]]></description>
+    <author><![CDATA[Novevision.com, Britoff A.]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall DM Solutions module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

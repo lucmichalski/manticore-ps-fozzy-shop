@@ -1,0 +1,33 @@
+div#onepagecheckoutps div#onepagecheckoutps_step_two .delivery-option, div#onepagecheckoutps div#onepagecheckoutps_step_three .module_payment_container {
+	cursor: pointer;
+	padding: 10px 0 10px 7px;
+	margin-bottom: 10px;
+	border: 2px solid #494b50;
+	border-radius: 5px;
+}
+div#onepagecheckoutps div#onepagecheckoutps_step_three #payment_method_container .module_payment_container.selected {
+	margin-bottom: 10px;
+}
+div#onepagecheckoutps table.novaposta select {
+	background: none;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px !important;
+	color: #494b50;
+	font-size: 12px;
+	padding: 5px;
+	height: auto !important;
+}
+.pts-vtop > div, .pts-vcenter > div.col-1{
+    float: left !important;
+    width: 20px !important;
+}
+.pts-vtop > div, .pts-vcenter > div.col-3{
+    float: left !important;
+    width: 60px !important;
+}
+.pts-vtop > div, .pts-vcenter > div.col-8 {
+    float: left !important;
+    width: calc(100% - 90px) !important;
+    margin-left: 10px;
+}

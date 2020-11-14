@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>promexport</name>
+    <displayName><![CDATA[Экспорт в Prom.ua]]></displayName>
+    <version><![CDATA[0.1]]></version>
+    <description><![CDATA[Генерирует файл экспорта в Prom.ua]]></description>
+    <author><![CDATA[Novevision.com, Britoff A.]]></author>
+    <tab><![CDATA[export]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

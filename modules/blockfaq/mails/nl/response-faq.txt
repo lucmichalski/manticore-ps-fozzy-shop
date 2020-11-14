@@ -1,0 +1,15 @@
+Hi {name},
+
+Response for question on the {shop_name}
+
+Details of message:
+
+Question: {question}
+
+Response: {response}
+
+Question: - {link_question}
+
+
+
+{shop_url} powered by PrestaShop

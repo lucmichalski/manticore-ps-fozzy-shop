@@ -1,0 +1,26 @@
+
+{if $useMiddlename == 1}
+<div id="middlename-group" class="form-group row" style="display:none">
+    <label class="form-control-label" for="middlename">{l s='Middle name' mod='ecm_checkout'}</label>
+    <div class="col-sm">
+	    <input class="form-control" type="text" name="middlename" id="middlename" value="{$middlename}"/>
+        <span class="form-text">{l s='Invalid characters 0-9!<>,;?=+()@#' mod='ecm_checkout'}</span>
+    </div>
+</div>
+{/if}
+{if $authMethod > 0}
+<div id= "phone-group" class="form-group row" style="display:none">
+	<label class="form-control-label" for="phone">{l s='Phone' mod='ecm_checkout'}</label>
+	</label>
+    <div class="col-sm">
+		<input class="form-control" type="text" name="phone" id="phone" value="{$phone}">
+        <span class="form-text">{l s='Phone number as login identifier' mod='ecm_checkout'}</span>
+	</div>
+</div>
+{/if}
+{addJsDef ajaxUrl={$ajaxUrl|escape:'html'}}
+{addJsDef id_customer={$id_customer}}
+{addJsDef authMethod={$authMethod}}
+{addJsDefL name='formatError'}{l s='Format phone number error!' mod='ecm_checkout' js=1}{/addJsDefL}
+{addJsDefL name='hasPhone'}{l s='A user with such a phone already exists in the site database. Change is impossible!' mod='ecm_checkout' js=1}{/addJsDefL}
+{addJsDefL name='success'}{l s='Update success!' mod='ecm_checkout' js=1}{/addJsDefL}

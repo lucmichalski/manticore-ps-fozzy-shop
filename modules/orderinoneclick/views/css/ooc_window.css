@@ -1,0 +1,35 @@
+.ooc_title, .ooc_description {
+    text-align: center;
+    margin-top:10px;
+}
+
+.ooc_label {
+    margin: 20px 0 0 0;
+    color: black;
+    padding: 0;
+}
+
+.ooc_footer {
+    text-align: center;
+    margin-top:30px
+}
+
+.ooc_center {
+    text-align: center;
+}
+
+.ooc_error_field {
+    color: darkred;
+}
+
+.ooc_required {
+    color: darkred;
+}
+
+.ooc_agree {
+    margin-top:30px
+}
+
+.ooc_tip {
+    color:red;
+}

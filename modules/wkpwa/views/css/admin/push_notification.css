@@ -1,0 +1,136 @@
+/**
+* 2010-2020 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All rights is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2020 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+#wk_customer_suggestion_cont {
+    display: none;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    list-style: none;
+    padding: 5px 0;
+    max-height: 142px;
+}
+
+#wk_customer_suggestion_cont li {
+    padding: 5px 10px;
+    color: #666;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#wk_customer_suggestion_cont li:hover {
+    color: #fff !important;
+    background-color: #337AB7;
+}
+
+.wk-available-tag-wrapper {
+    border-top: 1px solid #EDEDEE;
+    padding-top: 15px;
+}
+
+.wk-available-tag-wrapper .wk-available-tag-cont {
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0px 0px 4.8px 0.2px rgba(0, 0, 0, 0.08);
+}
+
+.wk-available-tag-heading {
+    font-size: 15px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.wk-available-tag-list,
+.wk-available-tag-info {
+    font-size: 14px;
+    color: #768591;
+}
+
+.wk-available-tag-span {
+    color: #394049;
+}
+
+
+/* Push Notification Progress bar CSS */
+#wk-notification-msg-cont {
+    display: none;
+}
+
+.sendPushNotification.disablePushBtn {
+    color: #ccc;
+    background-color: #fafafa;
+    border-color: #dedede;
+}
+
+#wk-notifcation-cont {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#wk-notifcation-cont .wk-notifcation-heading {
+    margin-bottom: 5px;
+}
+#wk-notifcation-cont .wk-notifcation-heading-text {
+    font-family: Ubuntu Condensed,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555;
+    margin: 0px;
+}
+#wk-notifcation-cont .wk-notifcation-heading-status {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+#wk-notifcation-percent {
+    color: #000000;
+}
+
+#wk-notifcation-cont .progress {
+    margin-bottom: 10px;
+    height: 5px;
+    box-shadow: none;
+    background-color: #E1E1E1;
+}
+
+#wk-notifcation-cont .notification-status-value {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#wk-notifcation-cont .notification-status-text {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#noti-succes-total-text {
+    color: #5CB747;
+}
+#noti-expire-total-text {
+    color: #FF5151;
+}

@@ -1,0 +1,7 @@
+New quick order in {SHOP_NAME}!
+
+ORDER DETAILS:
+
+Quick order: in the amount of {order_total} placed on {date}
+Customer contacts: {name}, {phone}, {email}
+Used vouchers: {discounts_message}

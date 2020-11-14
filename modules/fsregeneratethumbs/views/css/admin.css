@@ -1,0 +1,61 @@
+/**
+ *  2017 ModuleFactory.co
+ *
+ *  @author    ModuleFactory.co <info@modulefactory.co>
+ *  @copyright 2017 ModuleFactory.co
+ *  @license   ModuleFactory.co Commercial License
+ */
+
+.fsrt-ta-center {
+    text-align: center;
+}
+
+.fsrt_queue_item {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.fsrt_queue_item:last-child {
+    border-bottom: none;
+}
+
+.fsrt_queue_item .progress {
+    margin-bottom: 0;
+}
+
+.fsrt_queue_item .fsrt_col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media all and (max-width: 991px) {
+    .fsrt_queue_item .fsrt_progress_col {
+        padding-top: 0;
+    }
+}
+
+.fsrt_queue_item:last-child .fsrt_col {
+    padding-bottom: 5px;
+}
+
+.fsrt_queue_header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+    font-weight: bold;
+}
+
+.icon-toggle-play::before, #content .process-icon-play::before {
+    content: "\f04b";
+}
+
+.icon-toggle-pause::before, #content .process-icon-pause::before {
+    content: "\f04c";
+}
+
+#fsrt_form .btn-default {
+    min-width: 80px;
+}
+
+#fsrt-developed-by {
+    max-width: 100%;
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.sm_occ{
+    display: block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.sm_occ .sm_icon1{
+	padding-top: 8px;
+	padding-bottom: 9px;
+	display: block;
+	color: #b3b3b3;
+}
+
+.sm_occ .sm_icon1:hover{
+	color: #fff;
+}
+
+.sm_occ .desc{
+	position: absolute;
+	color: rgb(155, 155, 255);
+	font-weight: bold;
+	left: -8px;
+	bottom: 2px;
+	font-size: 10px;
+}
+
+.sm_occ .warn{
+	width: 19px;
+	background-color: #00aff0;
+	color: white;
+	border-radius: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	position: absolute;
+	top: 2px;
+	right: -24px;
+	text-align: center;
+}

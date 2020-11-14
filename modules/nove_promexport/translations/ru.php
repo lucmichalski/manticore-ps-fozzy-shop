@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_0adef50fafb440fbd5a451d6d31085d7'] = 'Экспорт в Prom.ua';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_db238eb02d6d6cbc14a56325dc8a6b1c'] = 'Экспорт товаров в Prom.ua';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_ffc70cdbbf3b39bbc2b301ad085d68d7'] = 'Генерация завершена.';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_9127fe218b2cac7f0c8aecd7016a891d'] = 'Название магазина';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_147bd58e669e3675c288265dd4959e49'] = 'Название магазина в Prom.ua';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_ccf107a5d46c6501c9f2f4345400dc2e'] = 'ID магазина';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_f1ebaceafaa69b1996791282e7c50578'] = 'ID магазина в Prom.ua';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_f198d8206b5a2cfb0607ccb3d3a76b8c'] = 'Код отслеживания';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_94eed2aa7f2c1927adbe8fe7e79f144e'] = 'Код отслеживания в URL (не может содержать &)';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_05c7c579fcf67925b50f594287c8ff69'] = 'Категории для экспорта';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_91b442d385b54e1418d81adc34871053'] = 'Отмеченные';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_5e9df908eafa83cb51c0a3720e8348c7'] = 'Отметить все';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_9747d23c8cc358c5ef78c51e59cd6817'] = 'Снять отметки';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_b56c3bda503a8dc4be356edb0cc31793'] = 'Свернуть все';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_5ffd7a335dd836b3373f5ec570a58bdc'] = 'Развернуть все';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_12f465a7d319af666ff75ee0f916834c'] = 'Использовать артикул поставщика:';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_93cba07454f06a4a960172bbd6e2a435'] = 'Да';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Нет';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_5a6d6d371d72e600f5aac47fb3ef8cc5'] = 'Не показывать товары в состоянии - Восстановлено:';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_88c7671729cb43636c51663da6301ad1'] = 'Информация по конфигурации экспорта в Prom.UA';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_31c904298c86f321e290ae0381cf8bcc'] = 'Постоянная ссылка';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_cc42feefd8fd8604ba30ba7a4c9f18c6'] = 'Ссылка генерируемая по расписанию или кнопкой - Генерировать';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_63668cb53e074f7dd9b604a2e9d70742'] = 'Динамическая ссылка';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_666d9217c6a37a90c1080451fc3d492d'] = 'Ссылка генерируемая по запросу';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_5588ea18ef47155105d7d11abcb7e4e1'] = 'Ссылка для генерации';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_53aee1468889f76e6e185307267abbc1'] = 'Ссылка для генерации по расписанию';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_32b919d18cfaca89383f6000dcc9c031'] = 'Генерировать';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_4bbb8f967da6d1a610596d7257179c2b'] = 'Неверный';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_d7359c448bde24973c610406e62bfe98'] = 'ID магазина';
+$_MODULE['<{nove_promexport}prestashop>nove_promexport_f38f5974cdc23279ffe6d203641a8bdf'] = 'Настройки обновлены.';

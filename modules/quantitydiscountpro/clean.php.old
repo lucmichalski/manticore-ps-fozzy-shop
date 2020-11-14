@@ -1,0 +1,78 @@
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require(dirname(__FILE__).'../../../config/config.inc.php');
+
+//Clean sessions
+$dir = _PS_MODULE_DIR_.'quantitydiscountpro/sessions/';
+    if (is_dir($dir)) {
+    $laFiles = scandir($dir);
+    if (!empty($laFiles)) {
+        unset($laFiles[0], $laFiles[1]);
+        if (!empty($laFiles)) {
+            // Remove files
+            foreach ($laFiles as $lsFile) {
+                if ($lsFile != 'index.php') {
+                    $filelastmodified = filemtime($dir.$lsFile);
+                    if((time() - $filelastmodified) > 24*3600)
+                    {
+                        dump('Remove file '.$dir.$lsFile);
+                        @unlink($dir.$lsFile);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//Orphanated records
+$sql = 'DELETE FROM `'._DB_PREFIX_.'quantity_discount_rule_cart`
+    WHERE `id_cart_rule` NOT IN (SELECT `id_cart_rule` from `'._DB_PREFIX_.'cart_rule`);';
+Db::getInstance()->execute($sql);
+
+$sql = 'DELETE FROM `'._DB_PREFIX_.'quantity_discount_rule_cart`
+    WHERE `id_cart` NOT IN (SELECT `id_cart` from `'._DB_PREFIX_.'cart`);';
+Db::getInstance()->execute($sql);
+
+// Orders
+$sql = 'SELECT o.`id_cart`, qdrc.`id_cart_rule`, o.`id_order`
+FROM `'._DB_PREFIX_.'quantity_discount_rule_cart` qdrc
+LEFT JOIN `'._DB_PREFIX_.'order_cart_rule` ocr ON (ocr.id_cart_rule = qdrc.id_cart_rule)
+LEFT JOIN `'._DB_PREFIX_.'orders` o ON (o.id_order = ocr.id_order)
+WHERE qdrc.`id_cart_rule` IN (SELECT `id_cart_rule` FROM `'._DB_PREFIX_.'order_cart_rule`)
+AND date_add < DATE_SUB(NOW(), INTERVAL 7 DAY)
+ORDER BY o.`id_order` ASC';
+
+$result = Db::getInstance()->executeS($sql);
+//var_dump($sql);
+//dump(count($result));
+foreach ($result as $rule) {
+    dump('Remove rule '.(int)$rule['id_cart_rule'].' from order '.(int)$rule['id_order']);
+    $cartRule = new CartRule((int)$rule['id_cart_rule']);
+    $cartRule->delete();
+}
+
+// Carts
+$sql = 'SELECT c.`id_cart`, qdrc.`id_cart_rule`
+FROM `'._DB_PREFIX_.'quantity_discount_rule_cart` qdrc
+LEFT JOIN `'._DB_PREFIX_.'cart` c ON (qdrc.id_cart = c.id_cart)
+LEFT JOIN `'._DB_PREFIX_.'orders` o ON (o.id_cart = c.id_cart)
+WHERE TIME_TO_SEC(TIMEDIFF(\''.pSQL(date('Y-m-d H:i:00', time())).'\', c.`date_upd`)) > 86400*30 and o.id_order is null
+order by c.date_add desc';
+
+$result = Db::getInstance()->executeS($sql);
+//var_dump($sql);
+//dump(count($result));
+foreach ($result as $rule) {
+    dump('Remove rule '.(int)$rule['id_cart_rule'].' from cart '.(int)$rule['id_cart']);
+    $cartRule = new CartRule((int)$rule['id_cart_rule']);
+    $cartRule->delete();
+    $cart = new Cart((int)$rule['id_cart']);
+    $cart->delete();
+}
+
+return true;

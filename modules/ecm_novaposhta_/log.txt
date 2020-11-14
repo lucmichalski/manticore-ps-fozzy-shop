@@ -1,0 +1,502 @@
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:35:00: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:35:00: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:35:00: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:36:19: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:36:19: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:36:19: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:22: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:22: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:22: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:39: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:39: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:39: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:53: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:53: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:38:53: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:17: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:17: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:17: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:27: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:27: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:27: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:45: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:45: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:39:45: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:04: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:04: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:04: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:37: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:37: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:37: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:46: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:46: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:40:46: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:02: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:02: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:02: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:16: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:16: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:16: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:37: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:37: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:37: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:55: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:55: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:41:55: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:42:27: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:42:27: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:42:27: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:42:50: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:42:50: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:42:50: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:06: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:06: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:06: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:19: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:19: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:19: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:32: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:32: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:43:32: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:45:23: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:45:23: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:45:23: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:45:47: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:45:47: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:45:47: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:46:39: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:46:39: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 08:46:39: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 10:03:41: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 10:03:41: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 10:03:41: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 10:04:48: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 10:04:48: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 10:04:48: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:19:40: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:19:40: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:19:40: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:20:37: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:20:37: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:20:37: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:21:23: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:21:23: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:21:23: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:30:55: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:30:55: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:30:55: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:31:45: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:31:45: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:31:45: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:37:29: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:37:29: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:37:29: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:38:08: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:38:08: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:38:08: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:38:17: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:38:17: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:38:17: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:45:08: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:45:08: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 13:45:08: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:02:03: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:02:03: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:02:03: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:02:03: 941
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:02:03: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "24.87",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "941",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "941"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:15: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:15: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:15: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:15: 2562.81
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:15: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "34.518",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "2563",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "2563"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:42: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:42: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:42: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:42: 960.4
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:06:42: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "24.906",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "960",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "960"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:08:29: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:08:29: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:08:29: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:08:29: 675.04
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:08:29: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "27.223",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "675",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "675"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:11:13: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:11:13: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:11:13: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:11:13: 286.67
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:11:13: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "14.968",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "287",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "287"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:12:14: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:12:14: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:12:14: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:12:14: 33.9
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:12:14: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "0.99",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "34",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "34"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:17: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:17: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:17: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:17: 509.49
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:17: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "33.245",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "509",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "509"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:23: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:23: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:23: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:23: 1102.39
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:13:23: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "27.903",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "1102",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "1102"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:16:34: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:16:34: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:16:34: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:16:34: 675.39
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:16:34: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "36.411",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "675",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "675"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:19:28: ================== price2 ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:19:28: Cost calculate error
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:19:28: Not enough parameters to calculate the cost
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:19:28: 882.31
+*DEBUG* 	v1.7.5.2	2020/11/10 - 14:19:28: 
+			{
+				"modelName": "InternetDocument",
+				"calledMethod": "getDocumentPrice",
+				"methodProperties": {
+					"Sender":"5b89ed36-d146-11e8-8b24-005056881c6b",
+					"CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
+					"CityRecipient": "ebc0eda9-93ec-11e3-b441-0050568002cf",
+					"Weight": "23.381",
+					"ServiceType": "WarehouseWarehouse",
+					"Cost": "882",
+					"CargoType": "Cargo",
+					"SeatsAmount": "1",
+					"PackCalculate": {
+						"PackCount": "1",
+						"PackRef": "1499fa4a-d26e-11e1-95e4-0026b97ed48a"
+					},
+					"RedeliveryCalculate": {
+						"CargoType": "Money",
+						"Amount": "882"
+					}
+				},
+				"apiKey": "6cf5f21c6f7bf5bcc1b13e175d9219d3"
+			}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:13: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:13: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:13: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:30: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:30: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:30: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:47: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:47: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:21:47: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:00: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:00: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:00: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:18: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:18: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:18: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:30: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:30: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:22:30: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:40:48: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:40:48: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:40:48: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:57:47: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:57:47: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:57:47: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:43: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:43: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:43: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:53: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:53: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:53: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:58: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:58: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:58:58: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:59:05: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:59:05: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 17:59:05: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:32:44: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:32:44: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:32:44: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:44:35: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:44:35: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:44:35: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:45:59: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:45:59: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 18:45:59: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:20:23: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:20:23: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:20:23: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:21:32: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:21:32: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:21:32: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:43:26: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:43:26: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:43:26: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:46:38: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:46:38: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:46:38: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:53:21: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:53:21: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/10 - 19:53:21: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:06:35: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:06:35: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:06:35: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:06:42: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:06:42: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:06:42: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:07:08: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:07:08: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:07:08: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:31: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:31: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:31: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:40: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:40: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:40: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:58: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:58: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:43:58: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:05: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:05: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:05: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:22: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:22: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:22: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:40: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:40: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:40: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:55: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:55: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:44:55: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:11: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:11: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:11: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:23: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:23: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:23: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:32: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:32: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:32: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:44: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:44: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:44: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:57: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:57: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 08:45:57: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:32:38: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:32:38: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:32:38: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:32:43: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:32:43: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:32:43: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:34:31: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:34:31: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 09:34:31: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 10:30:01: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 10:30:01: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 10:30:01: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}
+*DEBUG* 	v1.7.5.2	2020/11/11 - 11:17:20: ================== getCards ====================
+*DEBUG* 	v1.7.5.2	2020/11/11 - 11:17:20: Please update the application to the latest version
+*DEBUG* 	v1.7.5.2	2020/11/11 - 11:17:20: {"modelName":"Payment","calledMethod":"getCards","apiKey":"6cf5f21c6f7bf5bcc1b13e175d9219d3"}

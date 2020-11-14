@@ -1,0 +1,28 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '3306',
+    'database_name' => 'prestashop',
+    'database_user' => 'root',
+    'database_password' => '~',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'aisphMdxnumDRWymsxk441xPMZJuDeMn1uh6strvUKV2oFPbiION1qVa',
+    'ps_caching' => 'CacheMemcached',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2019-03-13',
+    'locale' => 'ru-RU',
+    'cookie_key' => 'Ve3IG4mgEYEiKEIuM4xWWUY9iCskftaih1WBE5yk636xdShfkKqPmXcr',
+    'cookie_iv' => 'OrmcEN0Y',
+    'new_cookie_key' => 'def00000f79d89ac44f151d49db9ab4cd1f04a67dcc795c72ad37ee9fbad7844314df9d9fb0b1e4c98c0f47828ff5fe2bf38fecdf10edf62b963f3b5cd4e5f33c6bfbdc2',
+    'image_host' => 'hetzner1.fozzyshop.com.ua',
+    'image_port' => '2226',
+    'image_username' => 'image',
+    'image_password' => '~',
+  ),
+);

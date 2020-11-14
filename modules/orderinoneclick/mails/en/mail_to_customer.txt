@@ -1,0 +1,11 @@
+Hi, {name}
+
+Thank you for shopping with {shop_name}! Our manager will contact you shortly, and specify the details of your order.
+
+ORDER DETAILS:
+
+Quick order: in the amount of {order_total} placed on {date}
+
+Used vouchers: {discounts_message}
+
+Announced preliminary order amount. Once you contact our manager and clarify details of the order, it will tell you the final amount of the order.

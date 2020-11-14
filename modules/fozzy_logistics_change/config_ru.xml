@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>fozzy_logistics_change</name>
+    <displayName><![CDATA[Logistics for Fozzy - Change personal]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Module for advandced logistics for Fozzy - Change personal]]></description>
+    <author><![CDATA[Novevision.com, Britoff A.]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

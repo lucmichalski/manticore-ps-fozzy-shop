@@ -1,0 +1,13 @@
+.margin-item-form-top-left{margin-top:8px;}
+.margin-item-form-top-left .badge{font-weight: bold}
+.margin-item-form-top-left .badge a{color:white;text-decoration: underline}
+.is_noti, .noti{padding-top: 5px}
+
+.avatar-list img{
+    width:55px;height:55px;padding:5px;background:#FFF;border:1px solid #CCC;border-radius:100%;
+    margin:0px!important;position:relative;z-index:1;display:inline-block}
+
+
+.avatar-form img{
+    width:85px;height:85px;padding:5px;background:#FFF;border:1px solid #CCC;border-radius:100%;
+    margin:0px!important;position:relative;z-index:1;display:inline-block}

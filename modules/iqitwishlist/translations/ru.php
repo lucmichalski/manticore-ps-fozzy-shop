@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_26f8a2f841db6da1d21d2dd0e64daa3a'] = 'IQIT - Список желаний';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_a76a49eb2624904363df6ef780040075'] = 'Разрешает покупателям создавать списки желаний и рассылать их.';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_0e43d25c8d98cf5743b3af75458f5aa6'] = 'Показать кросс-продажи';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_b29c11fd0135c6a22d11e0ca63eab6b2'] = 'Показать часто покупаемые продукты с продуктами, добавленными в список желаний';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Включено';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_b9f5c797ebbf55adccdd8539a65a0241'] = 'Отключено';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{iqitwishlist}prestashop>actions_6425b0faf9723313fb97dd365e920742'] = 'Вам необходимо авторизоваться';
+$_MODULE['<{iqitwishlist}prestashop>actions_956d818758e07660a5885268e15c92a9'] = 'Товар удален из списка желаний';
+$_MODULE['<{iqitwishlist}prestashop>actions_6cba49b790757be59e258de6d28fa078'] = 'Товар добавлен в список желаний';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_641254d77e7a473aa5910574f3f9453c'] = 'Список желаний';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_e38004377b7618106370e94bef4b1dca'] = 'Опубликовать Вас список';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_a588b1abc58b8b758c4b34b69b9e10bb'] = 'Скопировано';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_a612782072a3b8f151c5e2120ef20efd'] = 'Копировать в буфер';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_9ae79c1fccd231ac7fbbf3235dbf6326'] = 'Мой список';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_7dc1578cf6ff845d36dab7db19ef86c0'] = 'Ваш список пуст';
+$_MODULE['<{iqitwishlist}prestashop>iqitwishlist-account_42a36b27675834714767716f9c8d2cd7'] = 'Клиенты, которые купили этот товар, также купили:';
+$_MODULE['<{iqitwishlist}prestashop>display-header-buttons_641254d77e7a473aa5910574f3f9453c'] = 'Список желаний';
+$_MODULE['<{iqitwishlist}prestashop>display-modal_b945c0fcfb0fade1c1953c9061250fa2'] = 'Вам необходимо войти или создать учетную запись';
+$_MODULE['<{iqitwishlist}prestashop>display-modal_b0bc2c064f7ee5680201d7bf95fc5a6c'] = 'Сохраните товары в своем списке желаний, чтобы купить их позже или поделиться с друзьями.';
+$_MODULE['<{iqitwishlist}prestashop>display-modal_952998528c20798fbd22b49d505a29d5'] = 'Нет аккаунта? Создайте здесь';
+$_MODULE['<{iqitwishlist}prestashop>display-modal_6cba49b790757be59e258de6d28fa078'] = 'Товар добавлен в список желаний';
+$_MODULE['<{iqitwishlist}prestashop>display-nav_641254d77e7a473aa5910574f3f9453c'] = 'Список желаний';
+$_MODULE['<{iqitwishlist}prestashop>my-account_9ae79c1fccd231ac7fbbf3235dbf6326'] = 'Мой список желаний';
+$_MODULE['<{iqitwishlist}prestashop>product-miniature_2d96bb66d8541a89620d3c158ceef42b'] = 'Добавить в список желаний';
+$_MODULE['<{iqitwishlist}prestashop>display-header-buttons-mobile_641254d77e7a473aa5910574f3f9453c'] = 'Список желаний';
+$_MODULE['<{iqitwishlist}prestashop>product-page_2d96bb66d8541a89620d3c158ceef42b'] = 'Добавить в список желаний';

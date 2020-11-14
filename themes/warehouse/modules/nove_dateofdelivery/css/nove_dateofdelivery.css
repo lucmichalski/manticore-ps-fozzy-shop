@@ -1,0 +1,19 @@
+#HOOK_BEFORECARRIER,
+#onepagecheckoutps_step_three_container {
+	display: inline-block;
+}
+#onepagecheckoutps_step_review_container h5,
+#onepagecheckoutps_step_review_container #header-order-detail-content,
+#onepagecheckoutps_step_review_container #order-detail-content {
+	display: none !important;
+}
+@media (min-width: 767px) {
+#HOOK_BEFORECARRIER {
+	top: -58px;
+	margin-bottom: -58px;
+	float: left;
+}
+#js-delivery {
+	float: left;
+}
+}

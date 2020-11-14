@@ -1,0 +1,238 @@
+#############################################################################
+## ручное обновление индекса
+## /usr/bin/indexer --all --rotate
+## перезагрузка сервиса
+## service sphinxsearch restart
+## зайти в сервис sphinx для тестирования корманд
+## mysql -P9306 -h0 --protocol=tcp --prompt='sphinxQL> '
+#############################################################################
+
+source fozzyshop
+{
+    type = mysql
+
+    sql_host = 127.0.0.1
+    sql_port = 3306
+    sql_user = root
+    sql_db   = prestashop
+    sql_pass = ~
+
+    sql_query_pre = SET NAMES utf8
+}
+
+source src_products_ru : fozzyshop
+{
+    sql_query = \
+        SELECT pl.id_product, pl.name AS product, ROUND(AVG(ps.price)) AS price, \
+            ps.id_category_default AS categoryId, \
+            GROUP_CONCAT(ps.available_for_order ORDER BY ps.id_shop ASC SEPARATOR ',') AS afo, \
+            CONV(REVERSE(GROUP_CONCAT(ps.available_for_order ORDER BY ps.id_shop ASC SEPARATOR '')),2,10) AS available_for_order, \
+            pl.id_lang AS langId_attr, \
+            cl.link_rewrite AS categoryLink, \
+            cl.name AS category, \
+            m.id_manufacturer AS manufacturerId, m.name AS manufacture, \
+            /* pl.description, pl.description_short, */ \
+            GROUP_CONCAT(DISTINCT pl.id_shop) AS shopId_attr \
+        FROM ps_product_lang AS pl \
+            INNER JOIN ps_product_shop AS ps ON pl.id_product=ps.id_product AND pl.id_shop=ps.id_shop AND ps.active=1 AND ps.show_site=1 \
+            INNER JOIN ps_category c ON ps.id_category_default=c.id_category AND c.active=1 \
+            LEFT JOIN ps_category_lang AS cl ON ps.id_category_default=cl.id_category AND pl.id_shop=cl.id_shop AND pl.id_lang=cl.id_lang \
+            LEFT JOIN ps_product AS p ON pl.id_product=p.id_product \
+            LEFT JOIN ps_manufacturer AS m ON p.id_manufacturer=m.id_manufacturer \
+            /* LEFT JOIN ps_lang l ON l.id_lang = pl.id_lang */ \
+        WHERE pl.id_lang=1 AND ps.indexed=1 AND ps.visibility IN ('both','search') \
+        GROUP BY pl.id_product, pl.name
+
+    sql_attr_multi  = uint shopId_attr from field shopId
+    sql_attr_multi  = uint langId_attr from field langId
+    sql_attr_uint   = categoryId
+    sql_attr_string = categoryLink
+    sql_attr_uint   = manufacturerId
+    sql_attr_string = afo
+    sql_attr_uint   = available_for_order
+    sql_attr_uint   = price
+
+    sql_field_string    = product
+    sql_field_string    = category
+    sql_field_string    = manufacture
+
+    sql_range_step = 10
+}
+
+index products1
+{
+    source                  = src_products_ru
+    path                    = /var/www/sphinx/fozzyshop/products_ru
+
+    # morphology              = stem_enru
+    # морфология через словари словоформ...
+    morphology                = lemmatize_ru_all, lemmatize_en_all
+    docinfo                 = extern
+
+    # хранить оригинальное слово, увеличивает релевантность если выставлена опция expand_keywords
+    index_exact_words       = 1
+
+    # Автоматически приводит запрос к виду "( running | *running* | =running )". min_infix_len и expand_keywords приведут, к тому что запрос RV 2205 выдаст RV2205
+    #expand_keywords         = 1
+
+    # минимальная длина префикса, взаимо исключающее min_infix_len и являются его подмножеством
+    min_prefix_len          = 2
+
+    # Минимальная длина слова для индексации
+    min_word_len            = 2
+
+    # Удаляем html тэги
+    html_strip              = 1
+
+    # Приводим латиницу и кириллицу в нижний регистр. Ё заменяем на е.
+    charset_table = 0..9, ., A..Z->a..z, a..z, U+410..U+42F->U+430..U+44F, U+430..U+44F, U+404->U+454, U+454, U+406->U+456, U+456, U+407->U+457, U+457, U+490->U+491, U+491, U+401->U+435, U+451->U+435
+
+    # словоформы проверить можно командой $> call keywords('сникерс','products1');
+    wordforms = /var/www/sphinx/fozzyshop/wordforms.txt
+}
+
+source src_products_ua : fozzyshop
+{
+    sql_query = \
+        SELECT pl.id_product, pl.name AS product, ROUND(AVG(ps.price)) AS price, \
+            ps.id_category_default AS categoryId,  \
+            GROUP_CONCAT(ps.available_for_order ORDER BY ps.id_shop ASC SEPARATOR ',') AS afo, \
+            CONV(REVERSE(GROUP_CONCAT(ps.available_for_order ORDER BY ps.id_shop ASC SEPARATOR '')),2,10) AS available_for_order, \
+            pl.id_lang AS langId_attr, \
+            cl.link_rewrite AS categoryLink, \
+            cl.name AS category, \
+            m.id_manufacturer AS manufacturerId, m.name AS manufacture, \
+            /* pl.description, pl.description_short, */ \
+            GROUP_CONCAT(DISTINCT pl.id_shop) AS shopId_attr \
+        FROM ps_product_lang AS pl \
+            INNER JOIN ps_product_shop AS ps ON pl.id_product=ps.id_product AND pl.id_shop=ps.id_shop AND ps.active=1 AND ps.show_site=1 \
+            INNER JOIN ps_category c ON ps.id_category_default=c.id_category AND c.active=1 \
+            LEFT JOIN ps_category_lang AS cl ON ps.id_category_default=cl.id_category AND pl.id_shop=cl.id_shop AND pl.id_lang=cl.id_lang \
+            LEFT JOIN ps_product AS p ON pl.id_product=p.id_product \
+            LEFT JOIN ps_manufacturer AS m ON p.id_manufacturer=m.id_manufacturer \
+            /* LEFT JOIN ps_lang l ON l.id_lang = pl.id_lang */ \
+        WHERE pl.id_lang=2 AND ps.indexed=1 AND ps.visibility IN ('both','search') \
+        GROUP BY pl.id_product, pl.name
+
+    sql_attr_multi  = uint shopId_attr from field shopId
+    sql_attr_multi  = uint langId_attr from field langId
+    sql_attr_uint   = categoryId
+    sql_attr_string = categoryLink
+    sql_attr_uint   = manufacturerId
+    sql_attr_string = afo
+    sql_attr_uint   = available_for_order
+    sql_attr_uint   = price
+
+    sql_field_string    = product
+    sql_field_string    = category
+    sql_field_string    = manufacture
+
+    sql_range_step = 10
+}
+
+index products2
+{
+    source                  = src_products_ua
+    path                    = /var/www/sphinx/fozzyshop/products_ua
+
+    morphology              = stem_enru
+#    morphology               = lemmatize_ru_all, lemmatize_en_all
+
+    docinfo                 = extern
+
+    index_exact_words       = 1
+    #expand_keywords         = 1
+    min_prefix_len          = 2
+    min_word_len            = 2
+    html_strip              = 1
+
+    charset_table = 0..9, ., A..Z->a..z, a..z, U+410..U+42F->U+430..U+44F, U+430..U+44F, U+404->U+454, U+454, U+406->U+456, U+456, U+407->U+457, U+457, U+490->U+491, U+491, U+401->U+435, U+451->U+435
+}
+
+index products {
+    type = distributed
+    local = products1
+    local = products2
+}
+
+source src_categories : fozzyshop
+{
+    sql_query = \
+        SELECT cl.id_category, c.id_parent AS parentId, \
+            GROUP_CONCAT(DISTINCT cl.id_lang ORDER BY cl.id_lang ASC) AS langId_attr, \
+            GROUP_CONCAT(DISTINCT cl.link_rewrite ORDER BY cl.id_lang ASC SEPARATOR '|') AS categoryLink, \
+            GROUP_CONCAT(distinct cl.name ORDER BY cl.id_lang ASC SEPARATOR '|') AS category, \
+            GROUP_CONCAT(DISTINCT cl.id_shop) AS shopId_attr \
+        FROM ps_category_lang AS cl \
+            LEFT JOIN ps_category AS c ON cl.id_category=c.id_category \
+            LEFT JOIN ps_lang l ON l.id_lang = cl.id_lang \
+        WHERE c.id_parent>1 AND c.active=1 \
+        GROUP BY cl.id_category/*, cl.name*/
+
+    sql_attr_multi  = uint shopId_attr from field shopId
+    sql_attr_multi  = uint langId_attr from field langId
+    sql_attr_uint   = parentId
+    sql_attr_string = categoryLink
+
+    sql_field_string = category
+}
+
+index categories
+{
+    source                  = src_categories
+    path                    = /var/www/sphinx/fozzyshop/categories
+
+    morphology              = stem_enru
+    docinfo                 = extern
+
+    index_exact_words       = 1
+    #expand_keywords         = 1
+    min_prefix_len          = 2
+    min_word_len            = 2
+    html_strip              = 1
+
+    charset_table = 0..9, ., A..Z->a..z, a..z, U+410..U+42F->U+430..U+44F, U+430..U+44F, U+404->U+454, U+454, U+406->U+456, U+456, U+407->U+457, U+457, U+490->U+491, U+491, U+401->U+435, U+451->U+435
+}
+
+
+indexer
+{
+    mem_limit        = 64M
+    lemmatizer_cache = 64M
+}
+
+common
+{
+    # wget http://sphinxsearch.com/files/dicts/ru.pak
+    lemmatizer_base = /etc/sphinxsearch/dic
+}
+
+#############################################################################
+## searchd settings
+#############################################################################
+
+searchd
+{
+    listen                  = 9312
+    listen                  = 9306:mysql41
+    log                     = /var/log/sphinxsearch/searchd.log
+    query_log               = /var/log/sphinxsearch/query.log
+    read_timeout            = 10
+    client_timeout          = 30
+    max_children            = 30
+    pid_file                = /var/run/sphinxsearch/searchd.pid
+    #max_matches             = 10000
+    seamless_rotate         = 1
+    preopen_indexes         = 1
+    unlink_old              = 1
+    mva_updates_pool        = 1M
+    max_packet_size         = 8M
+    max_filters             = 256
+    max_filter_values       = 4096
+    max_batch_queries       = 32
+    dist_threads            = 10
+    #compat_sphinxql_magics  = 0
+    workers                 = threads # for RT to work
+    rt_flush_period         = 3600
+    binlog_path             =
+}

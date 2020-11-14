@@ -1,0 +1,11 @@
+#history .hist_button {
+	display: inline-block;
+	margin: .45rem 0;
+	padding: .45rem .375rem !important;
+	color: #ffffff;
+	border-radius: 3px;
+  background-color: #302e3a;
+}
+#history .hist_button.cancel {
+background-color: #DC143C;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>quantitydiscountpro</name>
+    <displayName><![CDATA[Акции и скидки - (3x2, сокращение, кампании)]]></displayName>
+    <version><![CDATA[2.1.31]]></version>
+    <description><![CDATA[Применить скидки в зависимости от продуктов из корзины]]></description>
+    <author><![CDATA[idnovate]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Вы уверены, что хотите удалить модуль и связанные с ним данные?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

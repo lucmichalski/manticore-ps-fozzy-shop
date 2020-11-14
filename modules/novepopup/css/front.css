@@ -1,0 +1,118 @@
+/**
+* 2007-2014 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2014 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+#novepopup-overlay {
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5103;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.7; }
+
+* html #novepopup-overlay {
+  position: absolute;
+  left: 0;
+  margin-left: -160px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.7; }
+
+#novepopup {
+  background-color: #fefefe;
+  position: fixed;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 5104;
+  max-width: 84%;
+  width: 400px;
+  height: 400px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  right: 0px;
+}
+#novepopup .novepopup-content{
+  padding: 15px;
+}
+#novepopup .novepopup-newsletter-form{
+padding: 15px 10px;
+background: #fff;
+}
+#novepopup .novepopup-newsletter-form .newsletter-input{
+  width: 60%;
+  height: 35px;
+  border: none !important;
+  margin-right: 8px;
+}
+#novepopup .novepopup-newsletter-form .button-medium{
+  padding-top: 9px;
+padding-bottom: 9px;
+}
+#novepopup .novepopup-close{
+  height: 25px;
+  top: -25px;
+  right: 0px;
+  position: absolute;
+  background: #D6D6D6;
+  padding-right: 25px;
+
+}
+#novepopup .nove-close-checkbox, #novepopup .nove-close-popup{
+display: inline-block;
+}
+#novepopup .nove-close-checkbox{
+  vertical-align: middle;
+  padding: 5px;
+  font-size: 10px;
+}
+#novepopup .nove-close-checkbox > div{display: inline-block; vertical-align: middle;}
+#novepopup .nove-close-popup{
+  background: #000;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 2;
+    text-align: center;
+    line-height: 25px;
+        position: absolute;
+    top: 0px;
+    right: 0px;
+ }  
+ #novepopup .cross{display: block;}
+    #novepopup .cross:before {
+      content: "\f00d";
+      display: block;
+      font-family: "FontAwesome";
+      font-size: 18px;
+      color: #fff; }
+ }
+

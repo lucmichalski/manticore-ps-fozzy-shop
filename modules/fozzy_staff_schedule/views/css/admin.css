@@ -1,0 +1,30 @@
+@media (min-width: 1200px) {
+    .bootstrap .col-lg-2 {
+        width: 13.66667% !important;
+    }
+}
+
+.kpi-container .tooltip-inner,
+.kpi-container .kpitooltip {
+    width: 300px!important;
+    max-width: 500px!important;
+}
+
+.tooltip-inner {
+    white-space: pre-line;
+}
+
+.select2-container .select2-choice {
+    width: 321px!important;
+    border: 1px solid #c7d6db!important;
+    height: 31px!important;
+}
+
+.select2-search-field {
+    width: 319px!important;
+}
+
+.select2-container-multi .select2-choices {
+    border: 1px solid #c7d6db!important;
+}
+

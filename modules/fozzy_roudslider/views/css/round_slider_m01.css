@@ -1,0 +1,17 @@
+@media (max-width: 350px) {
+.blockcart-modal-product .modal-dialog {
+	max-width: 285px;
+	top: 4%;
+	left: calc( 50% - 160px );
+}
+.blockcart-modal-product .modal-dialog .modal-content {
+    width: 285px;
+}
+.blockcart-modal-product .modal-header .h4 {
+    font-size: 21px;
+    padding: 15px 20px 0 20px;
+}
+.blockcart-modal-product .modal-body .types .container {
+    padding: 0 0 15px 5px;
+}
+}

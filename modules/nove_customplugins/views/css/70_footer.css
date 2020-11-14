@@ -1,0 +1,25 @@
+#footer .block-title {
+	margin-bottom: 0;
+}
+#footer .block-iqitcontactpage .block-title {
+	font-weight: normal;
+	margin-bottom: 0;
+	padding-bottom: 6px;
+}
+#footer .block-iqitcontactpage {
+    border-left: 1px solid #302E3A;
+}
+#footer .block-iqitcontactpage .contact-rich>strong {
+	font-weight: normal;
+}
+#footer .block-iqitcontactpage .part .icon,
+#footer .block-iqitcontactpage hr {
+	display: none;
+}
+#footer .block-links ul>li a {
+	padding-left: 0;
+}
+#footer .block-links ul>li a:before {
+	content: "\F105";
+	display: none;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ecm_checkout</name>
+    <displayName><![CDATA[Простое и легкое оформление заказа]]></displayName>
+    <version><![CDATA[0.4.0]]></version>
+    <description><![CDATA[Модуль для быстрого оформления заказа на одной странице]]></description>
+    <author><![CDATA[Elcommerce]]></author>
+    <tab><![CDATA[checkout]]></tab>
+	<confirmUninstall><![CDATA[Вы действительно хотите удалить модуль?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

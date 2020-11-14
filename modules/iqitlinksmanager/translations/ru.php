@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{iqitlinksmanager}prestashop>iqitlinksmanager_8010168e7a0a1569f6841120e64047fe'] = 'IQIT - Блок ссылок';
+$_MODULE['<{iqitlinksmanager}prestashop>iqitlinksmanager_1140f599011505a8a0f5fba28f17170d'] = 'Добавляет блоки со ссылками в различные хуки';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_85ec26fb32110f2fa7ffc9b12015959a'] = 'Настройки блоков';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_5436b31a608ba3794ba11014cf59c26c'] = 'Блоки ссылок';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_0a41f7ebbcf8a28362f8635ca8341d28'] = 'Новый';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_daf3043cd80ce98935908b37e2a7c97b'] = 'Редактировать';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_ef7c1780c75500dc68d71a6824d10c6b'] = 'Новый';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_e3352eb748a4c1cbcd1b41e98582bcac'] = 'название блока';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_b9b371458ab7c314f88b81c553f6ce51'] = 'Хук';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_bc9f2319172234a8fcb03cdd0b58e4f8'] = 'Облако ссылок';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_efe36ee9ff80ab8970e1cbaa8e2a5287'] = 'Выбранные ссылки';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_ea4788705e6873b424c65e91c2846b19'] = 'Отмена';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_83915d1254927f41241e8630890bec6e'] = 'Темы';
+$_MODULE['<{iqitlinksmanager}prestashop>adminiqitlinkwidgetcontroller_42162b323580d9f5238cf0eb69761f05'] = 'IQIT - Блок ссылок';
+$_MODULE['<{iqitlinksmanager}prestashop>form_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{iqitlinksmanager}prestashop>form_52f5e0bc3859bc5f5e25130b6c7e8881'] = 'Позиция';
+$_MODULE['<{iqitlinksmanager}prestashop>form_83ef1503b3bd9858cc923a74e5f9e917'] = 'Название блока';
+$_MODULE['<{iqitlinksmanager}prestashop>form_7dce122004969d56ae2e0245cb754d35'] = 'Редактировать';
+$_MODULE['<{iqitlinksmanager}prestashop>form_f2a6c498fb90ee345d997f888fce3b18'] = 'Удалить';
+$_MODULE['<{iqitlinksmanager}prestashop>form_da16746dfb82ca3a338c289327b6f6d7'] = 'категория страницы';
+$_MODULE['<{iqitlinksmanager}prestashop>form_aae924a7b5ac8267cfc9f07c9bd68e46'] = 'страница';
+$_MODULE['<{iqitlinksmanager}prestashop>form_c4ef352f74e502ef5e7bc98e6f4e493d'] = 'категория';
+$_MODULE['<{iqitlinksmanager}prestashop>form_bd82c7d6d05b653fffc36ebfc97d73f3'] = 'Страницы';
+$_MODULE['<{iqitlinksmanager}prestashop>form_f819ca7aa874deba122be940abe821d5'] = 'Статические страницы';
+$_MODULE['<{iqitlinksmanager}prestashop>form_00edc9d4a7d58ba29800a6be26886415'] = 'статическая страница';
+$_MODULE['<{iqitlinksmanager}prestashop>form_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
+$_MODULE['<{iqitlinksmanager}prestashop>form_b78a3223503896721cca1303f776159b'] = 'Заголовок';
+$_MODULE['<{iqitlinksmanager}prestashop>form_02a3a357710cc2a5dfdfb74ed012fb59'] = 'Ссылка';
+$_MODULE['<{iqitlinksmanager}prestashop>form_792ec6b90c35027213ba5a359c7c6bee'] = 'Вводите абсолютную ссылку с http:// или https://';
+$_MODULE['<{iqitlinksmanager}prestashop>form_d28e9453af983349044b1a1aef4db0d6'] = 'Перетяните ссылку из облака';
+$_MODULE['<{iqitlinksmanager}prestashop>form_63e0fd3a01ae91d65a3782746b13eafa'] = 'статические страницы';
+$_MODULE['<{iqitlinksmanager}prestashop>form_dcce08a682abffa13ea9bf9dec529f3e'] = 'Или добавьте пользовательскую ссылку';
+$_MODULE['<{iqitlinksmanager}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = 'Добавить';
