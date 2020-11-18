@@ -1,0 +1,27 @@
+<?php
+class ProfitCalculationsClass extends ObjectModel {
+	public $id_profitcalculations;
+	public $type;
+	public $debit;
+	public $credit;
+	public $profit;
+	public $comment;
+	public $active;
+	public $date;
+	
+	public static $definition = array(
+		'table' => 'profitcalculations',
+		'primary' => 'id_profitcalculations',
+		'fields' => array(
+			'id_profitcalculations' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'),
+			'type' => array('type' => self::TYPE_STRING),
+			'debit' => array('type' => self::TYPE_INT),
+			'credit' => array('type' => self::TYPE_INT),
+			'profit' => array('type' => self::TYPE_INT),
+			'comment' => array('type' => self::TYPE_STRING),
+			'active' => array('type' => self::TYPE_BOOL,
+            ),
+			'date' => array('type' => self::TYPE_STRING)
+		),
+	);
+}
