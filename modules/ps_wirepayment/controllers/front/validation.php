@@ -49,29 +49,27 @@ class Ps_WirepaymentValidationModuleFrontController extends ModuleFrontControlle
 		if (!$authorized)
 			die($this->module->getTranslator()->trans('This payment method is not available.', array(), 'Modules.Wirepayment.Shop'));
 
-    if ($cart->getTotalShippingCost() > 0) 
-    
-    {
-    $rule_name = array();
-    $rule_name[1] = 'Бесплатная доставка за безналичный платеж';
-    $rule_name[2] = 'Безкоштовна доставка за безготівковий платіж';
-    $cart_rule = new CartRule();
-		$cart_rule->code = 'NVBNKTRNS_'.$cart->id;
-		$cart_rule->name = $rule_name;
-		$cart_rule->id_customer = $cart->id_customer;
-		$cart_rule->free_shipping = true;
-		$cart_rule->quantity = 1;
-		$cart_rule->quantity_per_user = 1;
-		$cart_rule->minimum_amount_currency = $cart->id_currency;
-		$cart_rule->reduction_currency = $cart->id_currency;
-		$cart_rule->date_from = date('Y-m-d H:i:s', time());
-		$cart_rule->date_to = date('Y-m-d H:i:s', time() + 24 * 36000);
-		$cart_rule->active = 1;
-		$cart_rule->add();
-    
-    $cart->addCartRule($cart_rule -> id);
-    }
+        if ($cart->getTotalShippingCost() > 0) {
+            $rule_name = array();
+            $rule_name[1] = 'Бесплатная доставка за безналичный платеж';
+            $rule_name[2] = 'Безкоштовна доставка за безготівковий платіж';
 
+            $cart_rule = new CartRule();
+            $cart_rule->code = 'NVBNKTRNS_'.$cart->id;
+            $cart_rule->name = $rule_name;
+            $cart_rule->id_customer = $cart->id_customer;
+            $cart_rule->free_shipping = true;
+            $cart_rule->quantity = 1;
+            $cart_rule->quantity_per_user = 1;
+            $cart_rule->minimum_amount_currency = $cart->id_currency;
+            $cart_rule->reduction_currency = $cart->id_currency;
+            $cart_rule->date_from = date('Y-m-d H:i:s', time());
+            $cart_rule->date_to = date('Y-m-d H:i:s', time() + 24 * 36000);
+            $cart_rule->active = 1;
+            $cart_rule->add();
+
+            $cart->addCartRule($cart_rule -> id);
+        }
 		$customer = new Customer($cart->id_customer);
 		if (!Validate::isLoadedObject($customer))
 			Tools::redirect('index.php?controller=order&step=1');

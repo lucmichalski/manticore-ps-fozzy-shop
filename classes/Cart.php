@@ -1162,11 +1162,32 @@ class CartCore extends ObjectModel
             return false;
         }
 
-        // Add the cart rule to the cart
-        if (!Db::getInstance()->insert('cart_cart_rule', array(
-            'id_cart_rule' => (int) $id_cart_rule,
-            'id_cart' => (int) $this->id,
-        ))) {
+        /**
+         * M. Rudyk - 16.11.2020
+         * Проверка, есть ли уже задействованы другие бесплатные доставки.
+         */
+        $sql_check_cart_rule = "SELECT `ps_cart_cart_rule`.*  FROM `"._DB_PREFIX_."cart_cart_rule` WHERE `id_cart`= ".(int) $this->id;
+        $check_cart_rule = Db::getInstance()->executeS($sql_check_cart_rule);
+
+        $free_shipping = 0;
+        if(is_array($check_cart_rule) && !empty($check_cart_rule)){
+            for ($i = 0; $i < count($check_cart_rule); $i++) {
+                $sql_select_promo_code = "SELECT `ps_cart_rule`.free_shipping  FROM `"._DB_PREFIX_."cart_rule` WHERE `id_cart_rule`= ".$check_cart_rule[$i]['id_cart_rule'];
+                $promo_code = Db::getInstance()->getValue($sql_select_promo_code);
+                if ($promo_code == 1)
+                    $free_shipping += 1;
+            }
+        }
+
+        if($free_shipping == 0) {
+            // Add the cart rule to the cart
+            if (!Db::getInstance()->insert('cart_cart_rule', array(
+                'id_cart_rule' => (int) $id_cart_rule,
+                'id_cart' => (int) $this->id,
+            ))) {
+                return false;
+            }
+        } else {
             return false;
         }
 
