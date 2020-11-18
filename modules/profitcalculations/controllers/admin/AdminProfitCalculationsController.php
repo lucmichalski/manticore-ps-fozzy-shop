@@ -1,6 +1,6 @@
 <?php
 if(defined('__PS_VERSION_'))
-exit('Restricted Access!!!');
+    exit('Restricted Access!!!');
 
 include_once(_PS_MODULE_DIR_ .'profitcalculations/classes/ProfitCalculationsClass.php');
 
@@ -13,17 +13,17 @@ class AdminProfitCalculationsController extends ModuleAdminController
 		$this->list_no_link = true;
         $this->addRowAction('edit');
         $this->addRowAction('delete');
-        $this->allow_export = true;		
+        $this->allow_export = true;
         $this->bootstrap = true;
-		
+
         $this->_defaultOrderBy = 'id_profitcalculations';
         $this->_defaultOrderWay = 'DESC';
-		
+
 
         $this->bulk_actions = array(
             'delete' => array('text' => 'Delete', 'icon' => 'icon-trash', 'confirm' => 'Delete selected items?',
             )
-        );	
+        );
 
         $this->fields_list = array(
 						'id_profitcalculations' => array(
@@ -65,20 +65,20 @@ class AdminProfitCalculationsController extends ModuleAdminController
 						'date_transaction' => array(
 								'title' => 'Date',
 								'align' => 'text-right',
-								'type' => 'date',				
+								'type' => 'date',
 								'filter_key' => 'a!date_transaction'
-						),            
-						
+						),
+
 						'date_transaction' => array(
 								'title' => 'Date',
 								'align' => 'text-right',
-								'type' => 'date',			
+								'type' => 'date',
 								'filter_key' => 'a!date_transaction'
 						),
 					);
 
         parent::__construct();
-    }	
+    }
 
 	public function renderKpis()
     {
@@ -99,9 +99,8 @@ class AdminProfitCalculationsController extends ModuleAdminController
 				(SELECT SUM(credit) FROM `'._DB_PREFIX_.'profitcalculations` WHERE type_action = "'.Configuration::get('PROFIT_CACL_SHIPPING').'"'.$_filter.' AND active = 1) as ship_credit
 			FROM `'._DB_PREFIX_.'profitcalculations` a'.$filter.' WHERE a.active = 1');
 
-// die(var_dump($data));
 		$kpis = array();
-		
+
 		$helper = new HelperKpi();
 		$helper->id = 'box-total-products';
 		$helper->icon = 'icon-qrcode';
@@ -180,10 +179,10 @@ class AdminProfitCalculationsController extends ModuleAdminController
 		$helper = new HelperKpiRow();
 		$helper->kpis = $kpis;
 		$rows .= $helper->generate();
-		
+
 		return $rows;
     }
-	
+
 	protected function processBulkDelete() {
 		if (is_array($this->boxes) && !empty($this->boxes)) {
 			$arr_to_del = Tools::getValue($this->table.'Box');
@@ -199,14 +198,14 @@ class AdminProfitCalculationsController extends ModuleAdminController
 			Tools::redirectAdmin($link_redirect . '&error='.$this->l('Transaction not delete'));
 		}
 	}
-	
+
 	protected function processBulkEnableSelection() {
 		if (is_array($this->boxes) && !empty($this->boxes)) {
 			$arr_to = Tools::getValue($this->table.'Box');
 			foreach ($arr_to as $id_profitcalculations) {
 				$profitcalculations = new ProfitCalculationsClass($id_profitcalculations);
 				 if (Validate::isLoadedObject($profitcalculations))
-					$profitcalculations->active = 1;	
+					$profitcalculations->active = 1;
 					$profitcalculations->save();
 			}
 			$link_redirect = $this->context->link->getAdminLink('AdminProfitCalculations');
@@ -216,14 +215,14 @@ class AdminProfitCalculationsController extends ModuleAdminController
 			Tools::redirectAdmin($link_redirect . '&error='.$this->l('Transaction status not change'));
 		}
 	}
-	
+
 	protected function processBulkDisableSelection() {
 		if (is_array($this->boxes) && !empty($this->boxes)) {
 			$arr_to = Tools::getValue($this->table.'Box');
 			foreach ($arr_to as $id_profitcalculations) {
 				$profitcalculations = new ProfitCalculationsClass($id_profitcalculations);
 				 if (Validate::isLoadedObject($profitcalculations))
-					$profitcalculations->active = 0;	
+					$profitcalculations->active = 0;
 					$profitcalculations->save();
 			}
 			$link_redirect = $this->context->link->getAdminLink('AdminProfitCalculations');
@@ -233,24 +232,24 @@ class AdminProfitCalculationsController extends ModuleAdminController
 			Tools::redirectAdmin($link_redirect . '&error='.$this->l('Transaction status not change'));
 		}
 	}
-	
+
 	public function processStatus()
     {
         if (!$id_profitcalculations = (int)Tools::getValue('id_profitcalculations')) {
             die(Tools::jsonEncode(array('success' => false, 'error' => true, 'text' => $this->l('Failed to update the status'))));
         } else {
 			$id_profitcalculations = Tools::getValue('id_profitcalculations');
-            $profitcalculations = new ProfitCalculationsClass($id_profitcalculations);		
+            $profitcalculations = new ProfitCalculationsClass($id_profitcalculations);
             if (Validate::isLoadedObject($profitcalculations)) {
-				
+
 				$link_redirect = $this->context->link->getAdminLink('AdminProfitCalculations');
-				
-                $profitcalculations->active = $profitcalculations->active == 1 ? 0 : 1;	
+
+                $profitcalculations->active = $profitcalculations->active == 1 ? 0 : 1;
                 $profitcalculations->save() ? Tools::redirectAdmin($link_redirect . '&confirm='.$this->l('Transaction status changed')) : Tools::redirectAdmin($link_redirect . '&error='.$this->l('Some thing is wrong. Transaction status not changed'));
             }
         }
 	}
-	
+
     public function initPageHeaderToolbar()
     {
 
@@ -275,7 +274,7 @@ class AdminProfitCalculationsController extends ModuleAdminController
         if (!($obj = $this->loadObject(true))) {
             return;
         }
-		
+
 		$this->fields_form = array(
             'legend' => array(
                 'title' => $this->l('Transaction'),
@@ -315,10 +314,10 @@ class AdminProfitCalculationsController extends ModuleAdminController
 				array(
 					'type' => 'date',
 					'label' => $this->l('Date'),
-					'name' => 'date_transaction',			
+					'name' => 'date_transaction',
 					'hint' => $this->l('Date of the transaction'),
 					'required' => true
-				),					
+				),
 				array(
 					'type' => 'switch',
 					'label' => $this->l('Enable'),
@@ -337,14 +336,14 @@ class AdminProfitCalculationsController extends ModuleAdminController
 							'value' => 0,
 							'label' => $this->l('Disabled')
 						)
-					)					
+					)
 				)
 			),
             'submit' => array(
                 'title' => $this->l('Save')
             )
 		);
-		
+
 		$profitcalculations = (int)Tools::getValue('id_profitcalculations', null);
 		 if ($profitcalculations != null) {
 			$profitcalculations = new ProfitCalculationsClass($profitcalculations);
@@ -358,10 +357,10 @@ class AdminProfitCalculationsController extends ModuleAdminController
                 'date_transaction' => $profitcalculations->date_transaction,
             );
 		 }
-		
-		return parent::renderForm();		
+
+		return parent::renderForm();
 	}
-	
+
     public function initContent()
     {
         if ($error = Tools::getValue('error')) {
@@ -370,15 +369,15 @@ class AdminProfitCalculationsController extends ModuleAdminController
         if ($confirm = Tools::getValue('confirm')) {
 			$this->confirmations[] = Tools::displayError($confirm);
 		}
-		
+
 		if (Tools::getValue('action') && Tools::getValue('action') == 'refresh') {
 			$result = $this->refreshTransaction();
         } else {
             $this->_use_found_rows = false;
-        }	
+        }
         parent::initContent();
     }
-	
+
 	public function refreshTransaction() {
 		$profitStatus = Configuration::get('PROFIT_CACL_STATUS');
 		if(!$profitStatus) {
@@ -429,7 +428,7 @@ class AdminProfitCalculationsController extends ModuleAdminController
 		$profitcalculations->profit = $profit;
 		$profitcalculations->update();
 	}
-	
+
 	public function checkMathShipping($id, $profit) {
 		$result = Db::getInstance()->executeS('
 			SELECT 	o.id_order,
@@ -443,7 +442,7 @@ class AdminProfitCalculationsController extends ModuleAdminController
 				WHERE o.id_order = "'.$id.'"');
 		return ($result[0]['profit'] == $profit ? $result : false);
 	}
-	
+
 	public function checkMathProduct($id, $profit) {
 		$result = Db::getInstance()->executeS('
 			SELECT 	o.id_order,
@@ -457,16 +456,16 @@ class AdminProfitCalculationsController extends ModuleAdminController
 				WHERE o.id_order = "'.$id.'"');
 		return ($result[0]['profit'] == $profit ? $result : false);
 	}
-	
+
 	public function checkStatusByOrder($id) {
 		return Db::getInstance()->executeS('SELECT * FROM `'._DB_PREFIX_.'profitcalculations` WHERE id_order = "'.$id.'"');
 	}
-	
-	
+
+
 	public function getOrdersForRefresh() {
 		return Db::getInstance()->executeS('SELECT * FROM `'._DB_PREFIX_.'profitcalculations` WHERE type_action IN ("'.Configuration::get('PROFIT_CACL_PRODUCT').'", "'.Configuration::get('PROFIT_CACL_SHIPPING').'") AND active = 1');
 	}
-	
+
 	public function getOrdersTransactions() {
 		$id_orders = Db::getInstance()->executeS('
 			SELECT 	o.id_order,
@@ -489,17 +488,17 @@ class AdminProfitCalculationsController extends ModuleAdminController
 			FROM `'._DB_PREFIX_.'orders` o
 			LEFT JOIN `'._DB_PREFIX_.'order_carrier` oc ON (o.id_order = oc.id_order)
 				WHERE o.current_state = "'.Configuration::get('PROFIT_CACL_STATUS').'"');
-	
+
 		$main = array_merge($id_orders,$shipping);
 		$main = $this->array_multisort_value($main, 'id_order', SORT_ASC);
 		return $main;
 	}
-	
-	
+
+
 	public function getProfitTransactions() {
 		return Db::getInstance()->executeS('SELECT * FROM `'._DB_PREFIX_.'profitcalculations`');
 	}
-	
+
 	function array_multisort_value()
 	{
 		$args = func_get_args();
@@ -518,7 +517,7 @@ class AdminProfitCalculationsController extends ModuleAdminController
 		return array_pop($args);
 	}
 
-	
+
     public function initToolbar()
     {
         parent::initToolbar();
@@ -530,7 +529,7 @@ class AdminProfitCalculationsController extends ModuleAdminController
                 'desc' => $this->l('Import')
             );
         }
-    }	
+    }
     public function postProcess()
     {
         // checks access
@@ -541,12 +540,12 @@ class AdminProfitCalculationsController extends ModuleAdminController
 
         if (Tools::isSubmit('submitAdd'.$this->table)) {
 			$id_profitcalculations = Tools::getValue('id_profitcalculations');
-			
+
 			if($id_profitcalculations)
-				$profitcalculations = new ProfitCalculationsClass($id_profitcalculations);	
-			else 
+				$profitcalculations = new ProfitCalculationsClass($id_profitcalculations);
+			else
 				$profitcalculations = new ProfitCalculationsClass();
-			
+
 			    $profitcalculations->type_action = Tools::getValue('type_action', null);
                 $profitcalculations->debit =  Tools::getValue('debit', 0);
                 $profitcalculations->credit =  Tools::getValue('credit', 0);
@@ -554,14 +553,14 @@ class AdminProfitCalculationsController extends ModuleAdminController
                 $profitcalculations->profit =  (int)Tools::getValue('debit') - (int)Tools::getValue('credit');
                 $profitcalculations->active =  Tools::getValue('active');
                 $profitcalculations->date_transaction =  Tools::getValue('date_transaction');
-				
+
 			if ($id_profitcalculations) {
                     $profitcalculations->update();
 					Tools::redirectAdmin(self::$currentIndex.'&conf=4&token='.$this->token);
                 } else {
                     $profitcalculations->save();
 					Tools::redirectAdmin(self::$currentIndex.'&conf=3&token='.$this->token);
-                }	
+                }
         } elseif (Tools::isSubmit('submitRefresh'.$this->table)) {
 			die(var_dump('123'));
         } elseif (Tools::isSubmit('delete'.$this->table)) {
