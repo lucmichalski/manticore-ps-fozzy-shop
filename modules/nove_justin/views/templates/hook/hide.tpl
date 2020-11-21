@@ -1,4 +1,4 @@
-<input id="id" name="id" type="hidden" value ="{$cart->id_carrier}"/>
+<input id="id" name="id" type="hidden" value ="{isset($cart->id_carrier)}"/>
 
 <script>
 console.warn($("#id").val());

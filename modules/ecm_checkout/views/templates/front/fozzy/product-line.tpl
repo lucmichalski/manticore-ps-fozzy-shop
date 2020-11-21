@@ -150,7 +150,7 @@
                 data-id-product             = "{$product.id_product|escape:'javascript'}"
                 data-id-product-attribute   = "{$product.id_product_attribute|escape:'javascript'}"
                 data-id-customization   	  = "{$product.id_customization|escape:'javascript'}"
-                act="set_quantity,{$renderSeq}"
+                act="set_quantity,{isset($renderSeq)}"
                 value="{$product.quantity}" 
                 name="quantity_{$product.id_product|escape:'javascript'}_{$product.id_product_attribute|escape:'javascript'}" 
 				id="quantity_{$product.id_product|escape:'javascript'}_{$product.id_product_attribute|escape:'javascript'}"
@@ -162,13 +162,13 @@
               
               <span class="input-group-btn-vertical">
                 <button class="btn btn-touchspin bootstrap-touchspin-up" type="button"
-                onclick="action('quantity_up,{$renderSeq}', '{$product.id_product|escape:'javascript'}_{$product.id_product_attribute|escape:'javascript'}')"
+                onclick="action('quantity_up,{isset($renderSeq)}', '{$product.id_product|escape:'javascript'}_{$product.id_product_attribute|escape:'javascript'}')"
                 >
                     <i class="fa fa-angle-up touchspin-up"></i>
                 </button>
-                
+                //
                 <button class="btn btn-touchspin bootstrap-touchspin-down" type="button"
-                onclick="action('quantity_down,{$renderSeq}', '{$product.id_product|escape:'javascript'}_{$product.id_product_attribute|escape:'javascript'}')"
+                onclick="action('quantity_down,{isset($renderSeq)}', '{$product.id_product|escape:'javascript'}_{$product.id_product_attribute|escape:'javascript'}')"
                 >
                     <i class="fa fa-angle-down touchspin-down"></i></button>
               </span>
