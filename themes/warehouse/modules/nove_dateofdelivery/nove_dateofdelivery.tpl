@@ -59,6 +59,7 @@
 
 <script type="text/javascript">
  var id_cart = {$id_cart};
+ var cart_id_rule = {$id_cart};
 document.addEventListener('DOMContentLoaded', function(){
 	add_nd_event()
 })    
@@ -97,32 +98,22 @@ if (!$("input[name=dtd_radio]:checked").size()) hide_payments();
                  $('#pleaseWaitDialog').show();
               },
             success: function(data){
-           //   console.log(data);
-              if (data == 1)
-              {
+              if (data == 1) {
                $('#pleaseWaitDialog').hide();
                show_payments();
-              }
-              else
-              {
-              this.tryCount++;
+              } else {
+                this.tryCount++;
                   if (this.tryCount <= this.retryLimit) {
                       //try again
                       $.ajax(this);
                       return;
-                      }
-                  else
-                      {
-                      $('#pleaseWaitDialog').hide();
-                      alert ('Невозможно оформить заказ, обновите страницу, пожалуйста');
+                      } else {
+                        $('#pleaseWaitDialog').hide();
+                        alert ('Невозможно оформить заказ, обновите страницу, пожалуйста');
                       }
               }
-              
-            }        
-        });    
-     
-   }); 
- 
-        
-}  
+            }
+        });
+   });
+}
 </script>
