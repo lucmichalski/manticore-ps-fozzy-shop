@@ -39,7 +39,7 @@ $sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rules` (
   `date_to` varchar(256) NOT NULL,
   `delivery_block` int(11) NOT NULL,
   `free_shipping` int(11) NOT NULL,
-  `active_rule` int(11) NOT NULL,
+  `active` int(11) NOT NULL,
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,                                            
   PRIMARY KEY (`id_promotions_rules`)                                                         
