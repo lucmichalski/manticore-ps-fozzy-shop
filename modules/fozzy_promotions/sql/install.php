@@ -33,7 +33,7 @@ $sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rules` (
   `id_promotions_rules` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `id_rule` int(11) UNSIGNED NOT NULL,
   `priority_rule` int(11) NOT NULL,
-  `code_rule` int(11) NOT NULL,
+  `code_rule` varchar(256) NOT NULL,
   `count_rule` int(11) NOT NULL,
   `date_from` varchar(256) NOT NULL,
   `date_to` varchar(256) NOT NULL,
