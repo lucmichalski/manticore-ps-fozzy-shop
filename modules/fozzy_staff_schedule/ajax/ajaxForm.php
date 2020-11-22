@@ -1,5 +1,6 @@
 <?php
 include(dirname(__FILE__) . '/../../../config/config.inc.php');
+include(dirname(__FILE__).'/../../../init.php');
 
 if (!empty($_POST['person_shop'])) {
     if ($_POST['type_persone'] == 1) {
