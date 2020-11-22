@@ -1179,7 +1179,7 @@ class CartCore extends ObjectModel
             }
         }
 
-        if($free_shipping == 0) {
+        if($free_shipping == 0 || $free_shipping == 1) {
             // Add the cart rule to the cart
             if (!Db::getInstance()->insert('cart_cart_rule', array(
                 'id_cart_rule' => (int) $id_cart_rule,
