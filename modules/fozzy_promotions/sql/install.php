@@ -29,9 +29,9 @@ $sql = array();
  * Таблица созданных акций, учет созданных акций.
  * The table of created shares, accounting for created shares.
  */
-$sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule` (
-  `id_promotions_rule` int(11) NOT NULL AUTO_INCREMENT,
-  `title_rule` varchar(256) NOT NULL,
+$sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rules` (
+  `id_promotions_rules` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `id_rule` int(11) UNSIGNED NOT NULL,
   `priority_rule` int(11) NOT NULL,
   `code_rule` int(11) NOT NULL,
   `count_rule` int(11) NOT NULL,
@@ -42,18 +42,18 @@ $sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule` (
   `active_rule` int(11) NOT NULL,
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,                                            
-  PRIMARY KEY (`id_promotions_rule`)                                                         
+  PRIMARY KEY (`id_promotions_rules`)                                                         
 ) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
 
 /**
  * Таблица переводов модуля.
  * Module translation table.
  */
-$sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule_lang1` (
-  `id_promotions_rule` int(11) NOT NULL,
+$sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule_lang` (
+  `id_promotions_rules` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `id_lang` int(11) NOT NULL,
   `title_rule` varchar(256) NOT NULL,                                           
-  PRIMARY KEY (`id_promotions_rule`, `id_lang`)                                                   
+  PRIMARY KEY (`id_promotions_rules`,`id_lang`)                                                   
 ) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
 
 

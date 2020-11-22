@@ -30,7 +30,7 @@
  * but does not want to loose all of the data associated to the module.
  */
 $sql = array();
-$sql[] = "DROP TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule`";
+$sql[] = "DROP TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rules`";
 $sql[] = "DROP TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule_lang`";
 
 foreach ($sql as $query) {
