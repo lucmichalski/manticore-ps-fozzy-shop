@@ -1179,12 +1179,26 @@ class CartCore extends ObjectModel
             }
         }
 
-        if($free_shipping == 0 || $free_shipping == 1) {
-            // Add the cart rule to the cart
+        if($free_shipping == 0) {
+            /*Add the cart rule to the cart*/
             if (!Db::getInstance()->insert('cart_cart_rule', array(
                 'id_cart_rule' => (int) $id_cart_rule,
                 'id_cart' => (int) $this->id,
             ))) {
+                return false;
+            }
+        } elseif ($free_shipping == 1) {
+            $sql_select_promo_code = "SELECT `ps_cart_rule`.free_shipping  FROM `"._DB_PREFIX_."cart_rule` WHERE `id_cart_rule`= ".$id_cart_rule;
+            $promo_code = Db::getInstance()->getValue($sql_select_promo_code);
+            if ($promo_code == 0) {
+                /*Add the cart rule to the cart*/
+                if (!Db::getInstance()->insert('cart_cart_rule', array(
+                    'id_cart_rule' => (int) $id_cart_rule,
+                    'id_cart' => (int) $this->id,
+                ))) {
+                    return false;
+                }
+            } else {
                 return false;
             }
         } else {
