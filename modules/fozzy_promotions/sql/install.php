@@ -66,9 +66,32 @@ $sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_types_rules
   PRIMARY KEY (`id_type_rule`)                                                   
 ) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
 
+/**
+ * Таблица окон доставки.
+ * Delivery window table.
+ */
+$sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_delivery_block` (
+  `id_window` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `window_block` int(11) NOT NULL,                                           
+  `id_shop` int(11) NOT NULL,                                           
+  `window_name` varchar(256) NOT NULL,                                           
+  PRIMARY KEY (`id_window`)                                                   
+) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
+
 
 foreach ($sql as $query) {
     if (Db::getInstance()->execute($query) == false) {
         return false;
     }
 }
+
+/**
+ * Окна доставки "Доставка курьером" для ID_SHOP = 1.
+ * Delivery windows "Delivery by courier" for ID_SHOP = 1.
+ */
+Db::getInstance()->insert('promotions_delivery_block', array('id_window' => '1', 'window_block' => '71', 'id_shop' => '1', 'window_name' => 'с 10-00 до 12-00 Курьер'));
+Db::getInstance()->insert('promotions_delivery_block', array('id_window' => '2', 'window_block' => '72', 'id_shop' => '1', 'window_name' => 'с 12-00 до 14-00 Курьер'));
+Db::getInstance()->insert('promotions_delivery_block', array('id_window' => '3', 'window_block' => '67', 'id_shop' => '1', 'window_name' => 'с 14-00 до 16-00 Курьер'));
+Db::getInstance()->insert('promotions_delivery_block', array('id_window' => '4', 'window_block' => '68', 'id_shop' => '1', 'window_name' => 'с 16-00 до 18-00 Курьер'));
+Db::getInstance()->insert('promotions_delivery_block', array('id_window' => '5', 'window_block' => '69', 'id_shop' => '1', 'window_name' => 'с 18-00 до 20-00 Курьер'));
+Db::getInstance()->insert('promotions_delivery_block', array('id_window' => '6', 'window_block' => '70', 'id_shop' => '1', 'window_name' => 'с 20-00 до 22-00 Курьер'));
