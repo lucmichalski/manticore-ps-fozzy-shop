@@ -13,7 +13,7 @@ class AdminPromotionsController extends ModuleAdminController {
         $this->addRowAction('delete');
         $this->allow_export = true;
         $this->bootstrap = true;
-        $this->lang = true;
+        $this->lang = false;
         $this->_defaultOrderBy = 'id_promotions_rules';
         $this->_defaultOrderWay = 'DESC';
 
@@ -23,9 +23,17 @@ class AdminPromotionsController extends ModuleAdminController {
         parent::__construct();
 
         $this->bulk_actions = array(
+            'copy' => array('text' => $this->l('Copy marked rules'), 'icon' => 'icon-copy', 'confirm' => $this->l('Copy selected items?'),
+            ),
             'delete' => array('text' => $this->l('Remove marked rules'), 'icon' => 'icon-trash', 'confirm' => $this->l('Delete selected items?'),
             )
         );
+
+        $this->_select = 'c.`title_rule`, d.`window_name`';
+        $this->_join = '
+        LEFT JOIN `'._DB_PREFIX_.'promotions_types_rules` c ON (c.`id_type_rule` = a.`id_rule`) 
+        LEFT JOIN `'._DB_PREFIX_.'promotions_delivery_block` d ON (d.`window_block` = a.`delivery_block`) 
+        ';
 
         $this->fields_list = array(
             'id_promotions_rules' => array(
@@ -64,7 +72,7 @@ class AdminPromotionsController extends ModuleAdminController {
                 'align' => 'text-center',
                 'filter' => true
             ),
-            'delivery_block' => array(
+            'window_name' => array(
                 'title' => $this->l('Delivery block'),
                 'type' => 'text',
                 'align' => 'text-center',
@@ -259,39 +267,42 @@ class AdminPromotionsController extends ModuleAdminController {
      *      - Добавить акцию.
      *      - Редактировать акцию.
      *      - Удалить акцию.
+     *		- Массовое удаление акций.
+     *		- Копии акций.
      * @return bool|ObjectModel|void
      * @throws PrestaShopException
      */
     public function postProcess() {
-        echo '<pre>';
-        var_dump($_POST);
-        die;
+        // $this->errors[] = 'sdfsdf';
         if (Tools::isSubmit('submitAdd'.$this->table)) {
             $id_promotions_rules = Tools::getValue('id_promotions_rules');
 
-            if($id_promotions_rules) {
+            if($id_promotions_rules)
                 $promotions_rules = new PromotionsRuleClass($id_promotions_rules);
-            } else {
+            else
                 $promotions_rules = new PromotionsRuleClass();
-                if(Tools::getValue('title_rule', 0) == 1) {
-                    $sql_add_picker = "INSERT INTO `" . _DB_PREFIX_ . "promotions_rules_lang` (`id_lang`, `title_rule`) VALUES ('1', 'Бесплатная доставка на дату и окно доставки')";
-                    Db::getInstance()->execute($sql_add_picker);
-                }
-            }
 
             $promotions_rules->id_rule = Tools::getValue('title_rule', 0);
             $promotions_rules->date_from =  Tools::getValue('date_from', null);
             $promotions_rules->code_rule =  'NVBNKTRNS_' . Tools::getValue('count_rule', 0);
             $promotions_rules->date_to =  Tools::getValue('date_to', null);
             $promotions_rules->delivery_block =  Tools::getValue('delivery_block', 0);
+            $promotions_rules->free_shipping =  1;
             $promotions_rules->count_rule =  Tools::getValue('count_rule', 0);
             $promotions_rules->priority_rule =  Tools::getValue('priority_rule', 0);
             $promotions_rules->active =  Tools::getValue('active');
 
             if ($id_promotions_rules) {
+            	$promotions_rules->date_upd =  date('Y-m-d H:i:00');
+            } else {
+				$promotions_rules->date_add =  date('Y-m-d H:i:00');
+            	$promotions_rules->date_upd =  date('Y-m-d H:i:00');
+            }
+          
+            if ($id_promotions_rules) {
                 $promotions_rules->update();
                 Tools::redirectAdmin(self::$currentIndex.'&conf=4&token='.$this->token);
-            } else {
+            } else {                
                 $promotions_rules->save();
                 Tools::redirectAdmin(self::$currentIndex.'&conf=3&token='.$this->token);
             }
@@ -301,18 +312,59 @@ class AdminPromotionsController extends ModuleAdminController {
             } else {
                 $promotions_rules = new PromotionsRuleClass((int)Tools::getValue('id_promotions_rules'));
                 $promotions_rules->delete();
+                Db::getInstance()->execute("DELETE FROM `"._DB_PREFIX_."promotions_rules_lang` WHERE `id_promotions_rules` = ".(int)Tools::getValue('id_promotions_rules'));
                 Tools::redirectAdmin(self::$currentIndex.'&conf=2&token='.$this->token);
             }
+        } elseif (Tools::isSubmit('submitBulkdeletepromotions_rules')) {
+        	$this_delete_rule = $_POST;
+
+            for ($i = 0; $i < count($this_delete_rule['promotions_rulesBox']); $i++) {
+				$promotions_rules = new PromotionsRuleClass($this_delete_rule['promotions_rulesBox'][$i]);
+				Db::getInstance()->execute("DELETE FROM `"._DB_PREFIX_."promotions_rules_lang` WHERE `id_promotions_rules` = ".$this_delete_rule['promotions_rulesBox'][$i]);
+                $promotions_rules->delete();
+            }
+            Tools::redirectAdmin(self::$currentIndex.'&conf=2&token='.$this->token);
+        } elseif (Tools::isSubmit('submitBulkcopypromotions_rules')) {
+        	$this_cope_rule = $_POST;
+
+        	for ($i = 0; $i < count($this_cope_rule['promotions_rulesBox']); $i++) {
+				$this_promotions_rules = new PromotionsRuleClass($this_cope_rule['promotions_rulesBox'][$i]);
+				$copy_promotions_rules = new PromotionsRuleClass();
+
+                $copy_promotions_rules->id_rule = $this_promotions_rules->id_rule;
+	            $copy_promotions_rules->date_from =  $this_promotions_rules->date_from;
+	            $copy_promotions_rules->code_rule =  $this_promotions_rules->code_rule;
+	            $copy_promotions_rules->date_to =  $this_promotions_rules->date_to;
+	            $copy_promotions_rules->delivery_block =  $this_promotions_rules->delivery_block;
+	            $copy_promotions_rules->free_shipping =  1;
+	            $copy_promotions_rules->count_rule =  $this_promotions_rules->count_rule;
+	            $copy_promotions_rules->priority_rule =  $this_promotions_rules->priority_rule;
+	            $copy_promotions_rules->active =  $this_promotions_rules->active;
+				$copy_promotions_rules->date_add =  date('Y-m-d H:i:00');
+	            $copy_promotions_rules->date_upd =  date('Y-m-d H:i:00');
+                $copy_promotions_rules->save();
+            }
+            Tools::redirectAdmin(self::$currentIndex.'&conf=3&token='.$this->token);
+        } elseif (Tools::isSubmit('submitBulkenableSelectionpromotions_rules')) {
+        	$this_enable_rule = $_POST;
+
+            for ($i = 0; $i < count($this_enable_rule['promotions_rulesBox']); $i++) {
+				$promotions_rules = new PromotionsRuleClass($this_enable_rule['promotions_rulesBox'][$i]);
+				$promotions_rules->active = 1;
+                $promotions_rules->save();
+            }
+            Tools::redirectAdmin(self::$currentIndex.'&conf=4&token='.$this->token);
+        } elseif (Tools::isSubmit('submitBulkdisableSelectionpromotions_rules')) {
+        	$this_enable_rule = $_POST;
+
+            for ($i = 0; $i < count($this_enable_rule['promotions_rulesBox']); $i++) {
+				$promotions_rules = new PromotionsRuleClass($this_enable_rule['promotions_rulesBox'][$i]);
+				$promotions_rules->active = 0;
+                $promotions_rules->save();
+            }
+            Tools::redirectAdmin(self::$currentIndex.'&conf=4&token='.$this->token);
         } else {
             return parent::postProcess();
-        }
-
-        if (Tools::isSubmit('submitBulkdeletepromotions_rules')){
-            $this_delete_rule = $_POST;
-            for ($i = 0; $i < count($this_delete_rule['table_pickerBox']); $i++) {
-                Db::getInstance()->execute("DELETE FROM `"._DB_PREFIX_."staff_schedule_picker` WHERE `id_person` = ".$this_delete_persons['table_pickerBox'][$i]);
-            }
-            $output .= $this->displayConfirmation($this->l('The collector schedule has been removed.'));
         }
     }
 }

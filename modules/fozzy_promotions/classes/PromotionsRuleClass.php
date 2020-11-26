@@ -25,7 +25,10 @@ class PromotionsRuleClass extends ObjectModel {
             'date_from' => array('type' => self::TYPE_STRING),
             'date_to' => array('type' => self::TYPE_STRING),
             'delivery_block' => array('type' => self::TYPE_INT),
+            'free_shipping' => array('type' => self::TYPE_INT),
             'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
+            'date_add' => array('type' => self::TYPE_DATE),
+            'date_upd' => array('type' => self::TYPE_DATE),
         ),
     );
 }
