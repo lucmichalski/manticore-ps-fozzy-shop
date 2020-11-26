@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-    <name>fozzy_promotions_and_discounts</name>
+    <name>fozzy_promotions</name>
     <displayName><![CDATA[Акции]]></displayName>
     <version><![CDATA[1.0.0]]></version>
     <description><![CDATA[Модуль акций магазина Fozzy.]]></description>
