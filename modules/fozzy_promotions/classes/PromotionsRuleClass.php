@@ -9,7 +9,7 @@ class PromotionsRuleClass extends ObjectModel {
     public $date_to;
     public $delivery_block;
     public $free_shipping;
-    public $active_rule;
+    public $active;
     public $date_add;
     public $date_upd;
 
@@ -22,9 +22,10 @@ class PromotionsRuleClass extends ObjectModel {
             'priority_rule' => array('type' => self::TYPE_INT),
             'code_rule' => array('type' => self::TYPE_STRING),
             'count_rule' => array('type' => self::TYPE_INT),
+            'date_from' => array('type' => self::TYPE_STRING),
             'date_to' => array('type' => self::TYPE_STRING),
             'delivery_block' => array('type' => self::TYPE_INT),
-            'active_rule' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
+            'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
         ),
     );
 }
