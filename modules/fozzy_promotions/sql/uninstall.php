@@ -31,7 +31,6 @@
  */
 $sql = array();
 $sql[] = "DROP TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rules`";
-$sql[] = "DROP TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule_lang`";
 $sql[] = "DROP TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_type_rule`";
 
 foreach ($sql as $query) {

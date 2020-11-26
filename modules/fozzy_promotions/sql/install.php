@@ -57,16 +57,6 @@ $sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_rule_lang` 
 ) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
 
 /**
- * Таблица переводов модуля.
- * Module translation table.
- */
-$sql[] .= "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "promotions_types_rules` (
-  `id_type_rule` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
-  `title_rule` varchar(256) NOT NULL,                                           
-  PRIMARY KEY (`id_type_rule`)                                                   
-) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
-
-/**
  * Таблица окон доставки.
  * Delivery window table.
  */
